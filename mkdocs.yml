@@ -1,0 +1,7 @@
+site_name: ML@B Wiki
+nav:
+    - Home: index.md
+    - About: about.md
+    - AWS:
+      - 'Setup': 'AWS/setup_aws.md'
+theme: readthedocs
