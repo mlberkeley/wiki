@@ -1,0 +1,1 @@
+<a href="https://www.semanticscholar.org/paper/GloVe%3A-Global-Vectors-for-Word-Representation-Pennington-Socher/f37e1b62a767a307c046404ca96bc140b3e68cb5">GloVe: Global vectors for word representation</a>
