@@ -7,9 +7,7 @@ import os
 import wandb
 from tqdm import tqdm
 import util
-from algos.dqn.dqn import DQN
-from algos.pg.pg import PG
-from algos.ddpg.ddpg import DDPG
+from algos import *
 import collections
 fields = ['state', 'action', 'reward', 'done', 'next_state']
 Transition = collections.namedtuple('Transition', fields)
@@ -17,17 +15,23 @@ Transition = collections.namedtuple('Transition', fields)
 algos = {
     "DQN": DQN,
     "PG": PG,
-    "DDPG": DDPG
+    "DDPG": DDPG,
+    "SAC": SAC,
+    "TRPO": TRPO,
+    "IML": ImitationLearner,
+    "PPO": PPO,
+    "TD3": TD3
 }
 
 envs = [
-    'LunarLanderContinuous-v2'
+    'LunarLanderContinuous-v2',
+    'CartPole-v1'
 ]
  
 # Runs policy for X episodes and returns average reward
 # A fixed seed is used for the eval environment
 def eval(policy, env_name, seed, eval_episodes=10, render=False):
-    assert env_name in envs
+    assert env_name in envs, f"Environment {env_name} not allowed"
     eval_env = gym.make(env_name)
     if render:
         eval_env = util.VideoRecorder(eval_env)
@@ -61,12 +65,16 @@ def train(policy,
           train_freq : int,
           eval_freq : int,
           no_tqdm : bool = False, 
-          save_data : bool = False):
+          save_logprob : bool = False):
     """
-    Trains 
+    Trains a policy on an environment using a replay buffer to store past transitions.
+    
+    Arguments
     """
     # Get env_name for evaluation environment creation
     env_name = env.unwrapped.spec.id
+    uniform_logprob = util.get_uniform_logprob(env.action_space)
+    assert env_name in envs, f"Environment {env_name} not allowed"
 
     # Prepare environment, state, and counters
     state, done = env.reset(), False
@@ -80,9 +88,14 @@ def train(policy,
         # Select action randomly or according to policy
         if step < args.start_timesteps:
             action = env.action_space.sample()
+            logprob = uniform_logprob
         else:
             input = util.to_torch(state, torch.float32)
-            action = policy.select_action(input)
+            if save_logprob:
+                action, logprob = policy.select_action(input, get_logprob=True)
+            else:
+                action = policy.select_action(input)
+                logprob = None
             action = util.from_torch(action)
 
         # Perform action
@@ -90,7 +103,10 @@ def train(policy,
         done = float(done) if t < ep_len else 0.
 
         # Process data and store it in replay buffer
-        replay_buffer.add(state, action, next_state, reward, done)
+        transition = (state, action, next_state, reward, done)
+        if save_logprob:
+            transition = (*transition, logprob)
+        replay_buffer.add(*transition)
         episode_reward += reward
         state = next_state
 
@@ -139,12 +155,12 @@ if __name__ == "__main__":
                           whole-trajectory q-values at each timestep)"
     
     # Environment and Training parameters
-    parser.add_argument("--env", default="CartPole-v1", help="Gym env name, or \"<DMC Domain Name> <DMC Task Name>\"")
+    parser.add_argument("--env", default="LunarLanderContinuous-v2", help="Gym env name, or \"<DMC Domain Name> <DMC Task Name>\"")
     parser.add_argument("--on_policy", "-on", action="store_true", help="Use single-trajectory buffer instead of replay buffer") 
     parser.add_argument("--eval_freq", default=int(5e3), type=int, help="Number of env steps between evaluations")
     parser.add_argument("--train_freq", default=10, type=int, help="Number of env steps between training")
-    parser.add_argument("--start_timesteps", default=int(25e3), type=int, help="How long to use random policy") 
-    parser.add_argument("--max_timesteps", default=int(1e6), type=int, help="Max number of env steps in training")
+    parser.add_argument("--start_timesteps", default=int(5e3), type=int, help="How long to use random policy") 
+    parser.add_argument("--max_timesteps", default=int(3e4), type=int, help="Max number of env steps in training")
     parser.add_argument("--ep_len", "-T", default=int(1e3), type=int, help="Maximum episode length")  
     parser.add_argument("--seed", "-s", default=0, type=int, help="Sets Gym, PyTorch and Numpy seeds")
     
@@ -192,7 +208,6 @@ if __name__ == "__main__":
     assert algos[args.algo].is_learner, f"Ensure you call @learner on the {algos[args.algo]} class"
     policy = algos[args.algo](model_args)
     
-    
     discrete_policy = util.policy_is_discrete(policy, state_dim)
     discrete_space = util.space_is_discrete(env.action_space)
     wrong_type = f"Policy is {'discrete' if discrete_policy else 'continuous'}\n"
@@ -200,7 +215,6 @@ if __name__ == "__main__":
     assert discrete_policy == discrete_space, wrong_type
     discrete = discrete_policy
     
-
     if args.load:
         policy.load(f"./models/{file_name}")
 
@@ -211,6 +225,7 @@ if __name__ == "__main__":
                                       max_size=replay_size, 
                                       discrete=discrete, 
                                       get_q=algos[args.algo].get_q,
+                                      get_logprob = algos[args.algo].get_logprob,
                                       trajectory_q=args.trajectory_q, 
                                       discount_qval=args.discount_qval,
                                       discount=args.discount)
@@ -227,7 +242,8 @@ if __name__ == "__main__":
         args.ep_len,
         args.train_freq,
         args.eval_freq,
-        args.no_tqdm
+        args.no_tqdm,
+        algos[args.algo].get_logprob
     )
     
     

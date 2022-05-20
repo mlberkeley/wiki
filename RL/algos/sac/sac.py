@@ -6,16 +6,19 @@ import util
     
 
 @util.learner()
-class DDPG(object):
+class SAC(object):
     def __init__(
         self,
         state_dim : int,
         action_dim : int,
         discount : float = 0.97,
-        actor_lr : float = 1e-3,
         critic_lr : float = 1e-3,
+        actor_lr : float = 1e-3,
+        temp_lr : float = 1e-3,
         actor_ema : float = 0.05,
-        critic_ema : float = 0.05
+        critic_ema : float = 0.05,
+        init_alpha : float = 1.,
+        entropy_limit : float = 1.,
     ):
         self.critic = util.MLP(input_size=state_dim + action_dim, 
                                output_size=1, 
@@ -25,24 +28,25 @@ class DDPG(object):
         self.critic_target = copy.deepcopy(self.critic)
         self.critic_optimizer = torch.optim.Adam(self.critic.parameters(), lr=critic_lr)
         
-        self.actor = util.MLP(input_size=state_dim, 
-                              output_size=action_dim, 
-                              hidden_sizes=(256, 256), 
-                              activation=nn.ReLU(),
-                              final_activation=nn.LogSoftmax(dim=-1))
+        self.actor = util.GaussianPolicy(state_dim=state_dim, 
+                                         action_dim=action_dim, 
+                                         hidden_sizes=(256, 256), 
+                                         activation=nn.ReLU(),
+                                         final_activation=nn.LogSoftmax(dim=-1))
         self.actor_target = copy.deepcopy(self.actor)
         self.actor_optimizer = torch.optim.Adam(self.actor.parameters(), lr=actor_lr)
+        
+        self.alpha = nn.Parameter(torch.tensor(init_alpha))
+        self.alpha_optimizer = torch.optim.SGD([self.alpha], lr=temp_lr)
 
         self.discount = discount
         self.actor_ema = actor_ema
         self.critic_ema = critic_ema
-        self.action_dim = action_dim
+        self.init_alpha = init_alpha
+        self.minent = entropy_limit
 
     def select_action(self, state, deterministic=True):
-        action = self.actor(state)
-        if not deterministic:
-            action += torch.rand_like(action) * self.eps
-        return action
+        return self.actor(state, deterministic=deterministic)
 
     def train(self, *data):
         state, action, next_state, reward, not_done = data
@@ -50,9 +54,10 @@ class DDPG(object):
         # Compute the target Q value
         with torch.no_grad(): 
             next_action = self.actor_target(next_state)
-            next_Q = self.critic_target(next_state, next_action)
-            target_Q = reward + self.discount * not_done * next_Q
-            
+            target_Q = self.critic_target(next_state, next_action)
+            target_Q -= self.alpha * self.actor.log_prob(state, next_action)
+            target_Q = reward + self.discount * not_done * target_Q
+ 
         # Compute critic loss and optimize critic
         Q = self.critic(state, action)
         critic_loss = F.mse_loss(Q, target_Q)
@@ -62,9 +67,16 @@ class DDPG(object):
  
         # Compute actor surrogate objective and optimize actor
         actor_loss = -torch.mean(self.critic(state, self.actor(state)), dim=0)
+        actor_loss += self.alpha * self.actor.log_prob(state, self.actor(state))
         self.actor_optimizer.zero_grad()
         actor_loss.backward()
         self.actor_optimizer.step()
+        
+        # Update alpha for entropy constraint
+        alpha_loss = -self.alpha * (self.minent + self.actor.log_prob(state, action))
+        self.alpha_optimizer.zero_grad()
+        alpha_loss.backward()
+        self.alpha_optimizer.step()
 
         # Update the frozen target models
         for nn, target, ema in [(self.critic, self.critic_target, self.actor_ema), 
@@ -72,5 +84,6 @@ class DDPG(object):
             for param, target_param in zip(nn.parameters(), target.parameters()):
                 target_param.data.copy_(ema * param.data + (1 - ema) * target_param.data)
                 
-        return {'actor_loss': actor_loss,
-                'critic_loss': critic_loss}
+        return {'actor_loss': actor_loss, 
+                'critic_loss': critic_loss, 
+                'temperature_loss': alpha_loss}

@@ -7,7 +7,7 @@ import torch.nn.functional as F
 import util
 
 
-@util.learner
+@util.learner()
 class DQN(object):
     def __init__(
         self,
@@ -45,9 +45,7 @@ class DQN(object):
         with torch.no_grad(): 
             target_Q = self.critic_target(next_state)
             target_Q = torch.max(target_Q, -1)[0]
-            data = {'next_q': target_Q}
             target_Q = reward + self.discount * not_done * target_Q
-            data = {'target_q': target_Q, **data}
             
         # Get current Q estimates
         q_mask = util.one_hot(action, num_classes=self.action_dim)
@@ -55,7 +53,6 @@ class DQN(object):
  
         # Compute critic loss
         critic_loss = F.mse_loss(Q, target_Q)
-        losses = {'loss': critic_loss}
 
         # Optimize the critic
         self.critic_optimizer.zero_grad()
@@ -66,4 +63,4 @@ class DQN(object):
         for param, target_param in zip(self.critic.parameters(), self.critic_target.parameters()):
             target_param.data.copy_(self.tau * param.data + (1 - self.tau) * target_param.data)
 
-        return losses
+        return {'loss': critic_loss}
