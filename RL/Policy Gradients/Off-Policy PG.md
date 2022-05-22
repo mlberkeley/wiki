@@ -1,4 +1,4 @@
-# Importance Sampling for PG
+# Off-Policy PG
 Requirements: [[PG]]
 
 ## Introduction
