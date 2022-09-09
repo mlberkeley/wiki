@@ -1,0 +1,21 @@
+## Pointers to some RL Resources
+
+*John So, last updated 05/16/2022*
+
+It's a big field that's honestly very disjoint from much of machine learning; whereas the basis of focus areas such as NLP + CV can be considered as just changing the mediums that you need to process (i.e. localities, information density, etc), RL is honestly an entirely different beast, where getting into it requires understanding a completely different formulation of the problem. In a sense, I find it similar to a lot of 3D vision problems, where understanding them probably requires understanding ideas from graphics, classical vision, and so on (this is all from the perspective of a non-CV person, but I digress.)
+
+**To this end, I encourage you to first understand the basic theories behind RL (i.e. MDPs, Q/value functions, policy iteration, exploration, etc) before considering deep RL**; this is a fundamental mistake I made when I was learning RL for the first time, and it seriously hampered my ability to understand what was going on. At the end of the day, I want you to understand that the core of deep RL can be reduced (maybe a little too simplistically) to replacing tabular methods with function approximators. The really interesting stuff (i.e. robotics, language, semi-supervision) all builds on these fundamental ideas.
+
+That being said, here are some resources to get you started (roughly in the order that I think you should tackle them). For all of the below (especially 2 and 3), I encourage you to follow any paper trails that you think are interesting!
+
+1. CS 188 [RL](https://inst.eecs.berkeley.edu/~cs188/sp22/assets/notes/n8_sp22.pdf) [Notes](https://inst.eecs.berkeley.edu/~cs188/sp22/assets/notes/n11_sp22.pdf) (there are two links). Read these first to get your baselines on what means what.
+2. CS 285 [Lectures](https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH). At a minimum watch Lectures 4-8, where Sergey talks about some of the base algorithms that you'll see in deep RL; understanding these gives you a foundation for learning more about various learning algorithms used in deep RL. The entire lecture series is honestly pretty great, and covers a large amount of topics (i.e. soft optimality, more theory, model-based RL, exploration). **Once you're here, you should feel comfortable reading RL papers and understanding the math**.
+3. CS 294 [Notes and Paper List](https://sites.google.com/view/berkeley-cs294-190-fa21/home). This provides a great snapshot by Pieter and Stuart (at the end of 2021) of what the frontier of RL is like, and gives you a great intro to some of the modern problems that RL practitioners are interested in. I encourage you to read the slides/notes for Lecture 1 to get a grasp of what's interesting to you, and then continue exploring from there.
+
+In terms of resources to help you get started, I recommend [Spinning Up](https://spinningup.openai.com/en/latest/) and [SB3](https://stable-baselines3.readthedocs.io/en/master/). These provide great baseline implementations for a large family of RL algorithms. Also note that google + github is your best friend; if you want an implementation, go ahead and google for it! (i.e. [drq-v2](https://github.com/facebookresearch/drqv2), [dreamer](https://github.com/google-research/dreamer), etc; it's generally fairly simple to find things to play around with.) Note that RL really does live off of abstractions; we stand on the shoulders of giants (though I do think that reimplenting an algo from scratch can be helpful for understanding).
+
+RL itself is pretty broad; I would provide a paper list but it would honestly be a disservice, because I wouldn't be able to cover the sheer breadth of topics that you can consider. If you want pointers to specific papers, I again would recommend checking out the 294-190 paper list for a place to start. You can also always DM me or another RL nerd in this club if you want to talk/learn about anything in a certain area :0 (my interests in RL primarily lie in semi-supervision from i.e. intrinsic reward, cross-domain knowledge, if those ideas strike your fancy).
+
+I hope that this hasn't scared you off; it's a really exciting field with genuinely so much to be done! 
+
+**now go and be rl-pilled, my dear friends**
