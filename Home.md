@@ -4,4 +4,4 @@ Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) 
 - [[Organization]]
 - [[Roadmap]]
 
-You might also prefer to use [Obsidian](https://obsidian.md) or a similar tool to use this wiki.
+You might also prefer to use [Obsidian](https://obsidian.md) or a similar tool to view this wiki.
