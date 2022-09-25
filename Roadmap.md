@@ -1,5 +1,3 @@
-Me making some edits
-
 1. Pick some well-known topics and write some example articles on them.
 2. Articles for each of the important papers in various subfields (NLP, RL, CV, etc.)
 3. Copy slides from reading groups, projects, (GM Speaker Slides?), NMEP, EDU
