@@ -1,6 +1,6 @@
 ## Pointers to some RL Resources
 
-*John So, last updated 05/16/2022*
+*John So, last updated 09/26/2022*
 
 It's a big field that's honestly very disjoint from much of machine learning; whereas the basis of focus areas such as NLP + CV can be considered as just changing the mediums that you need to process (i.e. localities, information density, etc), RL is honestly an entirely different beast, where getting into it requires understanding a completely different formulation of the problem. In a sense, I find it similar to a lot of 3D vision problems, where understanding them probably requires understanding ideas from graphics, classical vision, and so on (this is all from the perspective of a non-CV person, but I digress.)
 
