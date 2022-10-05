@@ -1,4 +1,4 @@
-Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) (link to GitHub) contains all our technical knowledge. If you're new, you can use the search bar or the 'Overview' button above to explore. Make sure to take a look at 
+Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) (link to GitHub) contains all our technical knowledge. To browse, you can use the search bar or click the 'Overview' button above. If you're going to make changes, look at the following:
 
 - [[Best practices]]
 - [[Organization]]
