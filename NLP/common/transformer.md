@@ -5,4 +5,4 @@ bibliography: "./NLP/nlp-papers.bib"
 
 # Transformers
 
-**Transformers** are an architecture first described by <a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a>
+**Transformers** are an architecture first described by @https://doi.org/10.48550/arxiv.1706.03762
