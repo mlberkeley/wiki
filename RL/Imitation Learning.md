@@ -1,4 +1,4 @@
-# Imitation Learning
+# Imitation Learning more complicated title
 ## Introduction
 If we'd like to use a neural network to solve a complex control task, one of the simplest ideas is to train a neural network to imitate an expert performing the task. This is called **Imitation Learning**. 
 ## Strategy
