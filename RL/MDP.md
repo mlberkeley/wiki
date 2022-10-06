@@ -1,4 +1,4 @@
- # Markov Decision Processes
+# Markov Decision Processes
  
 Requirements: None
 ## Resources
