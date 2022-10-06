@@ -2,7 +2,6 @@
 bibliography: "./RL/rl.bib"
 ---
 
-[[MDP]]
 
 # Deep Q-Network
 Requirements: [[TQL]], [[Neural Network]], [[Distribution Modeling with NNs]]
