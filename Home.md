@@ -11,4 +11,6 @@ If you're going to make changes, please look at the following:
 
 You might also prefer to use [Obsidian](https://obsidian.md) or a similar tool to view this wiki.
 
+---
+
 <<GlobalTOC()>>
