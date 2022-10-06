@@ -2,7 +2,6 @@ Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) 
 
 - Use the search bar
 - Click 'Overview' button above to see the file tree
-- See the flat list of files at [[Table of Contents]]
 
 If you're going to make changes, please look at the following:
 
