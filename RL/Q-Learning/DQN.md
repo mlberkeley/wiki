@@ -2,7 +2,7 @@
 bibliography: "./RL/rl.bib"
 ---
 
-[[Markov Decision Processes]]
+[[MDP]]
 
 # Deep Q-Network
 Requirements: [[TQL]], [[Neural Network]], [[Distribution Modeling with NNs]]
