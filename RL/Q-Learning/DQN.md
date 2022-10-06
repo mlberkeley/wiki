@@ -1,5 +1,11 @@
+---
+bibliography: "./RL/rl.bib"
+---
+
 # Deep Q-Network
 Requirements: [[TQL]], [[Neural Network]], [[Distribution Modeling with NNs]]
+
+@https://doi.org/10.48550/arxiv.1312.5602
 
 ## Resources
 - The original paper, [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
