@@ -38,7 +38,6 @@
 ### Post Lecture Content
 
 - Reading: How to read a paper
-- Watching: 3B1B DL first video (maybe second too)
 - MCQ: How to read a paper questions
 - MCQ: Some basic linalg/vector calc questions just to get students to go and look into the basic math that we will require
 - (Optional): Course specific reading / setups
@@ -59,6 +58,4 @@
 
 # Author Concern List
 
-- My concern is time
-    - I like all my examples and everything and I don’t know what I would cut in terms of content
-    - I might consider just assuming that the logistical / syllabus / course staff introductions will be done at infosessions or before lecture 1, allowing me to cut the first 10 slides or so before we start looking at course specific demos
+- Time is ok on this lecture, bias variance is just not well explained overall
