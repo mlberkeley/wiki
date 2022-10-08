@@ -20,6 +20,7 @@ Imitation learning works in
 ## Algorithm
 
 Imitation Learning
+
 **Parameters**: 
 - Number of total steps $T$
 - Replay Buffer capacity $N$
