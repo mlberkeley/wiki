@@ -87,5 +87,5 @@ This is supposed to take a second more advanced pass at deep learning (specifica
 
 # Author Concern List
 
-- Pop off at least momentum for the new proposed gradient descent module between deep learning 1 and deep learning 2 (couple with 3b1b video 2)
+- (Post-Decal comment) Pop off at least momentum for the new proposed gradient descent module between deep learning 1 and deep learning 2 (couple with 3b1b video 2)
 - Math requirements / chain rule (post decal: this is valid, but not gonna change anything tbh)
