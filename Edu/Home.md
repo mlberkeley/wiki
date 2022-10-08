@@ -1,1 +1,1 @@
-# EDU Wiki Home
+# Edu Wiki Home
