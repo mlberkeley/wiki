@@ -1,0 +1,1 @@
+**Backpropagation** is an algorithm to update the weights of a neural network.
