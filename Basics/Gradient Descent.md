@@ -1,0 +1,1 @@
+Gradient descent is the basic algorithm used to train a [[neural network]].
