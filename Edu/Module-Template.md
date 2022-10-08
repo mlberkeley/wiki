@@ -2,7 +2,13 @@
 
 # Module Dependencies
 Strong Dependencies:
-[[Module-Overview]]
+
+- [[Module-Overview]]
+- Add more strong dependencies by linking a module with \[\[<Module page name (not absolute path and no .md included)>\]\]
+
+Weak Dependencies:
+
+- Add more weak dependencies by linking a module with \[\[<Module page name (not absolute path and no .md included)>\]\]
 
 # Module Overview
 
