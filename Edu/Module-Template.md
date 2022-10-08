@@ -1,6 +1,7 @@
 # Dependencies
 
-
+Strong Dependencies:
+[[Module-Overview]]
 
 # Module Overview
 
