@@ -96,7 +96,7 @@ We will teach all of this by slowly interleaving in the matrix notation as oppos
 
 ### Pre Lecture Links
 
-- 
+- 3b1b deep learning 1 is a MUST
 
 ### Post Lecture Links
 
@@ -108,3 +108,4 @@ We will teach all of this by slowly interleaving in the matrix notation as oppos
 
 - **Math review**
     - (Post-Decal Comments) Waaaayyyyyy too long. Math review was good, but gradient descent needs its own lecture to do it justice, probably move advanced optimizers (or at least momentum) from deep learning 2 (modern deep learning) into this new module too
+    - (Post-Decal Comments) 3B1B deep learning 1 is a must... just has to happen
