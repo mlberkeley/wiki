@@ -4,11 +4,11 @@
 
 Strong Dependencies:
 
-None
+- None
 
 Weak Dependencies:
 
-None
+- None
 
 # Module Overview
 
