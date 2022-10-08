@@ -1,4 +1,6 @@
-# Dependencies
+# Edu Module Template
+
+# Module Dependencies
 Strong Dependencies:
 [[Module-Overview]]
 
