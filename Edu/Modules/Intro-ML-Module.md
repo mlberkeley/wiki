@@ -1,5 +1,15 @@
 # Intro to ML
 
+# Module Dependencies
+
+Strong Dependencies:
+
+None
+
+Weak Dependencies:
+
+None
+
 # Module Overview
 
 - The slides here don’t really go into the math… just trying to introduce course staff, motivate the specific course, etc and give broad strokes intro into what ML is and how we think about it
