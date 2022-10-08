@@ -26,6 +26,7 @@ Imitation Learning
 - Learning rate
 
 **Algorithm**:
+
 > Initialize expert dataset $\mathcal{D} = \left\{\left(s_t^{(i)}, a_t^{(i)}\right)_{t=1}^T\right\}_{i=1}^N$
 > Initialize policy NN $\pi_\theta:S\to A$ with random weights $\theta$\
 > **for** $\left(s_t^{(i)}, a_t^{(i)}\right)\in \mathcal{D}$ **do**:\
