@@ -1,4 +1,4 @@
-**Imitation learning** is training a neural network to imitate an expert performing a complex control task.
+**Imitation learning** is training a [[neural network]] to imitate an expert performing a complex control task.
 
 
 ## Strategy
