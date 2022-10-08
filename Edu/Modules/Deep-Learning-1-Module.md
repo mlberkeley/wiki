@@ -4,7 +4,7 @@
 
 Strong Dependencies:
 
-- [[Intro-ML-Module]]test
+- [[Intro-ML-Module]]
 
 Weak Dependencies:
 
