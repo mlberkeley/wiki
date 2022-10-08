@@ -58,4 +58,4 @@
 
 # Author Concern List
 
-- Time is ok on this lecture, bias variance is just not well explained overall
+- (Post-Decal Comment) Time is ok on this lecture, bias variance is just not well explained overall
