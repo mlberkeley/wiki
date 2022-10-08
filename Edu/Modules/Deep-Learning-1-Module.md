@@ -107,9 +107,4 @@ We will teach all of this by slowly interleaving in the matrix notation as oppos
 # Author Concern List
 
 - **Math review**
-    - If people aren’t comfortable with vector functions or matrix multiplication or vector dot product, they will panic when they see the slides where we talk about each layer being a matrix multiplication operation... so if we don’t have these slides, we need to hard enforce the Math for ML prerequisites listed here with an assignment or guided readings and a chance for students to connect with course staff before this lecture on the content:
-        
-        [General ML Prerequisites](https://www.notion.so/General-ML-Prerequisites-9149b138091840378a21c224bc5f3f08)
-        
-    - Using GIFs from the 3B1B video to show matrix multiplication as the same as the graph view will get us far, but it still isn’t a help if people don’t understand that matrix multiplication is just stacked vector dot products / inner products
-    - I’d rather cut the math review slides down to a bare minimum just to jog people’s memory AND hard enforce pre-requisites, creating a gradescope assignment for the math for ML pre-requisites to be done before the course starts, due like right after the first lecture
+    - (Post-Decal Comments) Waaaayyyyyy too long. Math review was good, but gradient descent needs its own lecture to do it justice, probably move advanced optimizers (or at least momentum) from deep learning 2 (modern deep learning) into this new module too
