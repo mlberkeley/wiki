@@ -1,1 +1,1 @@
-**Automatic differentiation** is an algorithm that computes exact derivatives from a computation graph.
+**Automatic differentiation** is an algorithm that computes exact derivatives from a computation graph. It comes in two flavors: forward mode and reverse mode.
