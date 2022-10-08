@@ -2,8 +2,6 @@
 Strong Dependencies:
 [[Module-Overview]]
 
-
-
 # Module Overview
 
 This is your TLDR overview of what will be in this module.
