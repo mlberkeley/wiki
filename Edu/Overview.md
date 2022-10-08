@@ -1,3 +1,7 @@
+## Overview
+
+Should be a quick read, but it is **CRITICAL** that you understand the guiding principles behind the module system. Don’t skim or you might violate our core principles. Put 10 minutes on your phone’s timer and read slowly and thoroughly, navigating to the referenced pages when directed to, reading that material as well. 
+
 ## Motivation
 
 Historically with ML@B, every time someone wants to update NMEP or create a decal, we end up starting from near scratch, which is insane since so many of the fundamentals of ML haven’t changed. We want to standardize and centralize all our resources with better visibility, version control and defined dependencies between content to decrease the amount of redundant work we do year to year. We call one of these standardized content units a **module**. A module can be used for one of the halves of an NMEP lecture, or an internal workshop, or a decal lecture. They are intended for reuse.
