@@ -3,7 +3,7 @@
 If we'd like to use a neural network to solve a complex control task, one of the simplest ideas is to train a neural network to imitate an expert performing the task. This is called **Imitation Learning**. 
 
 ## Strategy
-Imitation learning requires gathering state-action pairs from expert demonstration $\left\{\left(s_t^{(i)}, a_t^{(i)}\right)_{t=1}^T\right\}_{i=1}^N$
+Imitation learning requires gathering state-action pairs from expert demonstration $$\left\{\left(s_t^{(i)}, a_t^{(i)}\right)_{t=1}^T\right\}_{i=1}^N$$
 where 
 - $s_t^{(i)}$ is the state in step $t$ of the $i$th trajectory, 
 - $a_t^{(i)}$ is the action in step $t$ of the $i$th trajectory, 
