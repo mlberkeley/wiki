@@ -64,6 +64,7 @@ Explains pretraining, transfer learning and some techniques
 
 # Author Concern List
 
+- (Post-Decal jake comments): Cut bert, wavenet and replace with more explanations elsewhere. Phrase RotNet using MNIST not CIFAR/imagenet, but other than that, perfect in every way
 - A little unclear about how the pretraining cluster is supposed to play out
 - Some of the nlp stuff might not be very in depth unless the models/architectures are discussed as well, but would that be in a different lec?
 - Did not include any classical techniques(assuming those go into the classical cluster)
