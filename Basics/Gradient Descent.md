@@ -1,4 +1,4 @@
-Gradient descent is the basic algorithm used to train a [[neural network]].
+Gradient descent is the basic algorithm used to train a [[neural network]]. If the weights of the network are $\theta$, then gradient descent consists in iteratively computing the following update:
 
 $$
 \theta \leftarrow \theta - \alpha \nabla_\theta \mathcal{L}(\theta)
