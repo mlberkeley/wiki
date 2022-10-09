@@ -6,3 +6,4 @@ Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) 
 |Search for information on the website|Use the search bar, click [Overview](./gollum/overview) above, or go to [[Organization]]|
 |Visualize the wiki graph|Download [Obsidian](https://obsidian.md)|
 
+[[include:Best Practices]]
