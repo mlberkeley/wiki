@@ -1,5 +1,5 @@
 ---
-bibliography: "./Information-Theory/info.bib"
+bibliography: "./Basics/Information-Theory/info.bib"
 ---
 
 Information theory is a field that covers and intersects a lot of disciplines, which is why we have a whole folder for it.
