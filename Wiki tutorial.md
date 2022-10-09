@@ -8,10 +8,10 @@ This wiki is ultimately just a folder of text files -- see for yourself on [GitH
 
 # Editing a page
 
-|Action|Keyboard shortcut|
-|------|-----------------|
-|Edit|Tap _e_|
-|Save|Press _Cmd+S_|
+|Action|UI|Keyboard shortcut|
+|------|--|---------------|
+|Edit|Button in top right|Tap _e_|
+|Save|Green button bottom right in editing mode|Press _Cmd+S_|
 
 
 
