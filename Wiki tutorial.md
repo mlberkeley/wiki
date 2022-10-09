@@ -1,3 +1,5 @@
+# Wiki Tutorial
+
 This is a brief tutorial on using and navigating the wiki. 
 
 # How does wiki work?
