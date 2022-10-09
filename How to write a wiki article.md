@@ -1,4 +1,6 @@
-This page is a short guide on how to write a wiki article. 
+This page is a short tutorial on writing a wiki article.
+
+**Step 1**. Open up [[Example Article]]
 
 
 
