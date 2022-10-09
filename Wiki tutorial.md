@@ -13,4 +13,6 @@ This wiki is ultimately just a folder of text files -- see for yourself on [GitH
 |Edit|Tap _e_|
 |Save|Press _Cmd+S_|
 
-To edit a page, tap the _e_ key or click on Edit above. You'll be able to see the full source in the editor. Make sure you know the [[Best practices]] before changing anything. Feel free to put a more descriptive commit message in the box if you like. Then click 'Save' or just press Cmd+S.
+
+
+You'll be able to see the full source in the editor. Make sure you know the [[Best practices]] before changing anything. Feel free to put a more descriptive commit message in the box if you like. Then click 'Save' or just press Cmd+S.
