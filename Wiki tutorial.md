@@ -8,11 +8,11 @@ This wiki is ultimately just a folder of text files -- see for yourself on [GitH
 
 # Editing a page
 
+Make sure you know [[Best practices]] and [[How to write a wiki article]] before changing anything.
+
 |Action|UI|Keyboard shortcut|
 |------|--|---------------|
 |Edit|Button in top right|Tap _e_|
 |Save|Green button bottom right in editing mode|Press _Cmd+S_|
 
-
-
-You'll be able to see the full source in the editor. Make sure you know the [[Best practices]] before changing anything. Feel free to put a more descriptive commit message in the box if you like. Then click 'Save' or just press Cmd+S.
+Go to a page and try to edit it. What you see in the editor is the whole source for the file. To see how your changes will appear to the reader, go to the preview tab above. Feel free to put a more descriptive commit message in the box if you like. Then click 'Save' or just press Cmd+S.
