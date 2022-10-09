@@ -16,3 +16,7 @@ Make sure you know [[Best practices]] and [[How to write a wiki article]] before
 |Save|Green button bottom right in editing mode|Press _Cmd+S_|
 
 Go to a page and try to edit it. What you see in the editor is the whole source for the file. To see how your changes will appear to the reader, go to the preview tab above. Feel free to put a more descriptive commit message in the box if you like. Then click 'Save' or just press Cmd+S.
+
+# Math
+
+You can use LaTeX on any page. For inline math, wrap it in single dollar signs `$1+1$`.
