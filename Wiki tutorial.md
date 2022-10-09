@@ -6,6 +6,10 @@ This is a brief tutorial on using and navigating the wiki.
 
 This wiki is ultimately just a folder of text files -- see for yourself on [GitHub](https://github.com/mlberkeley/wiki). But by using an open-source package called [gollum](https://github.com/gollum/gollum), we're able to host these files on a pleasant front-end at [mlberkeley.wiki](https://mlberkeley.wiki/Home). Anytime you make a content change to wiki on the website, gollum records it as an ordinary git commit. We use gollum because it has lots of convenient features, as you'll soon find out.
 
+# Markdown
+
+Pages should be written in markdown, which is the default setting.
+
 # Editing a page
 
 Make sure you know [[Best practices]] and [[How to write a wiki article]] before changing anything.
