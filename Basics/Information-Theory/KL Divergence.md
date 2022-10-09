@@ -1,1 +1,1 @@
-**Kullback-Leibler (KL )divergence**, also known as **relative entropy**
+The **Kullback-Leibler (KL) divergence**, also known as **relative entropy**, $D_{KL}(P \parallel Q)$
