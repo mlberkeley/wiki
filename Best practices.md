@@ -1,3 +1,5 @@
+# Best practices
+
 Please follow the guidelines below when editing articles in the wiki. 
 
 1. Highlight the big ideas, the important caveats, and practical tips first. Assume that readers will look up involved, obscure, and complicated details if they need.
