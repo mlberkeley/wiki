@@ -5,12 +5,6 @@ Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) 
 |Learn how to write a post|Keep reading|
 |Search for information|Use the search bar, click [Overview](./gollum/overview) above, see table of contents below</li></ul>|
 
-To browse, you can
-
-- Use the search bar
-- Click 'Overview' button above to see the file tree
-- See the table of contents below
-
 If you're going to make changes, please look at the following:
 
 - [[Best practices]]
