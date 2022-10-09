@@ -2,8 +2,9 @@ Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) 
 
 |What I'm trying to do|What to do|
 |---------------------|----------|
-|Learn how to write a post|Keep reading|
+|Learn how to write a post|Go to [[How to write a wiki article]]|
 |Search for information on the website|Use the search bar, click [Overview](./gollum/overview) above, or go to [[Organization]]|
+|Visualize the wiki graph|Download [Obsidian](https://obsidian.md)|
 
 If you're going to make changes, please look at the following:
 
@@ -11,4 +12,4 @@ If you're going to make changes, please look at the following:
 - [[Organization]]
 - [[Roadmap]]
 
-You might also prefer to use [Obsidian](https://obsidian.md) or a similar tool to view this wiki.
+You might also prefer to use or a similar tool to view this wiki.
