@@ -1,1 +1,1 @@
-**Automatic differentiation** is an algorithm that computes exact derivatives from a computation graph. It comes in two flavors: forward mode and reverse mode.
+**Automatic differentiation (autodiff)** is an algorithm that computes exact derivatives from a computation graph. It comes in two flavors: forward mode and reverse mode. Ashwin and Cade did a [recorded reading group](https://youtu.be/ZeDWJ2varKg) on it.
