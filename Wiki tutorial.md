@@ -28,3 +28,7 @@ You can use LaTeX on any page. If you want the math to appear inline, wrap it in
 $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
+
+# Linking
+
+You can link to another page in the wiki by writing `[[Name of article]]`.
