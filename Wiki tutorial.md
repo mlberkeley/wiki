@@ -19,4 +19,4 @@ Go to a page and try to edit it. What you see in the editor is the whole source 
 
 # Math
 
-You can use LaTeX on any page. For inline math, wrap it in single dollar signs `$1+1$`.
+You can use LaTeX on any page. If you want the math to appear inline, wrap it in single dollar signs like `$1+1$`. For longer equations, use double dollar signs like `$$1+1$$`.
