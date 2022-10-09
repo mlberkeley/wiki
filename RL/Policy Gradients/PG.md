@@ -52,6 +52,7 @@ The policy gradient is applicable to
 - $Q$-value estimator (see [[PG#^df0b0f|above]])
 
 **Algorithm**:
+
 > Initialize neural network $f$ with random weights $\theta$\
 > Parameterize the policy as: $\pi_\theta(a\mid s) = \xi(a\mid f_\theta(s))$\
 > **for** episode $\in\{1, \dots, N\}$ **do**:\
