@@ -3,7 +3,7 @@ Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) 
 |What I'm trying to do|What to do|
 |---------------------|----------|
 |Learn how to write a post|Keep reading|
-|Search for information|Use the search bar, click 'Overview' above, see table of contents below</li></ul>|
+|Search for information|Use the search bar, click [Overview](./gollum/overview) above, see table of contents below</li></ul>|
 
 To browse, you can
 
