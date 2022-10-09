@@ -1,3 +1,7 @@
+---
+bibliography: "info.bib"
+---
+
 Information theory is a field that covers and intersects a lot of disciplines, which is why we have a whole folder for it.
 
 ## Recommended Reading
