@@ -1,4 +1,11 @@
-Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) (link to GitHub) contains all our technical knowledge. To browse, you can
+Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) (link to GitHub) contains all our technical knowledge. 
+
+|What I'm trying to do|What to do|
+|---------------------|----------|
+|Learn how to write a post|Keep reading|
+|Search for information|Use the search bar, Click 'Overview' above, or see table of contents below|
+
+To browse, you can
 
 - Use the search bar
 - Click 'Overview' button above to see the file tree
