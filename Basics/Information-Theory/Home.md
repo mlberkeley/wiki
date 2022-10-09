@@ -2,4 +2,4 @@ Information theory is a field that covers and intersects a lot of disciplines, w
 
 ## Recommended Reading
 
-- David MacKay's _Information Theory, Inference, and Learning Algorithms_ ([PDF](https://www.inference.org.uk/itprnn/book.pdf)) as a PDF and covers the material an ML person would find interesting.
+- David MacKay's _Information Theory, Inference, and Learning Algorithms_ ([PDF](https://www.inference.org.uk/itprnn/book.pdf))
