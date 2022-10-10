@@ -21,6 +21,8 @@ $$
 F(G(X)) \approx X \tag{Cycle Consistency}
 $$
 
+Then, we get an intuitive loss term:
+
 $$
 \mathcal{L}\_{\text{cyc}}(G, F) = \mathbb{E}\_{x \sim p_{\text{data}}(x)}\big[ \lVert F(G(x)) - x \Vert_1  \big] + \mathbb{E}\_{x \sim p_{\text{data}}(y)}\big[ \lVert G(F(y)) - y \Vert_1  \big]
 $$
