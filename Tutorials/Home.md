@@ -10,4 +10,4 @@ Most of the information on this page can be found in the [gollum documentation](
 
 # Tutorial List
 
-<<Navigation()>>
+- [[How to write a wiki article]]
