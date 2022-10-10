@@ -1,0 +1,1 @@
+This is a tutorial on editing a page in the wiki. To make the wiki democratic and allow it to grow with us, we've enabled editing for anybody. But with great power comes great responsibility, so read carefully!
