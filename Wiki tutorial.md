@@ -37,4 +37,4 @@ You can link to another page in the wiki by writing `[[Name of article]]`.
 
 # CriticMarkup
 
-CriticMarkup lets us mark editing changes in case we're unsure about something. You can mark a {-- deletion --} or {++ if you need ++} an addition. {-- Replacements->Substitutions --} are also possible as well as {== highlighting ==}
+CriticMarkup lets us mark editing changes in case we're unsure about something. You can mark a {-- deletion --} or {++ if you need ++} an addition. {--Replacements->Substitutions--} are also possible as well as {== highlighting ==}
