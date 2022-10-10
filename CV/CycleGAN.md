@@ -15,7 +15,7 @@ The key idea in this work is hinted at in the word cycle. The way to construct a
 
 # Analysis
 
-If we had a dataset $\\{x_i, y_i\\}\_{i=1}^n$, this would be a simpler, supervised learning problem. Unpaired means that what we have is $\\{x\_i\\}\_{i=1}^N$ and $\\{y_j\\}_{j=1}^M$. The key idea is that to learn $G$ we learn an inverse mapping $F: Y \to X$ and force
+If we had a dataset $\\{x_i, y_i\\}\_{i=1}^n$, this would be a simpler, supervised learning problem. Unpaired means that what we have is $\\{x\_i\\}\_{i=1}^N$ and $\\{y_j\\}_{j=1}^M$. As mentioned above, to learn $G$, we will also learn an inverse mapping $F: Y \to X$ and force
 
 $$
 F(G(X)) \approx X \tag{Cycle Consistency}
