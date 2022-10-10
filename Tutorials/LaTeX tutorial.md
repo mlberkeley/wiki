@@ -4,7 +4,7 @@ If you want the math to appear inline like $1+1=2$, then you should put it in si
 
 By the way, it's common practice to punctuate equations with commas or periods at the end, depending on how it's used in a sentence.
 
-If you want to refer to the equation, you can have it numbered
+If you want to refer to the equation, you can have it labeled.
 
 \begin{equation}
 a^2 + b^2 = c^2. \tag{Pythagorean Theorem}
