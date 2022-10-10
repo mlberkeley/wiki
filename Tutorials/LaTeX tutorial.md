@@ -1,0 +1,1 @@
+One reason we use gollum is that it supports $\LaTeX$, a popular math typesetting software.
