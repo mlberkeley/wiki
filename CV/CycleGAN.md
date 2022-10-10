@@ -27,10 +27,18 @@ $$
 \mathcal{L}\_{\text{cyc}}(G, F) = \mathbb{E}\_{x \sim p_{\text{data}}(x)}\big[ \lVert F(G(x)) - x \Vert_1  \big] + \mathbb{E}\_{x \sim p_{\text{data}}(y)}\big[ \lVert G(F(y)) - y \Vert_1  \big]
 $$
 
+# Synthesis
+
 The full loss is 
 
 $$
 \mathcal{L}(G, F, D_X, D_Y) = \mathcal{L}\_{\text{GAN}}(G, D_Y, X, Y) + \mathcal{L}\_{\text{GAN}}(F, D_X, Y, X) + \lambda \mathcal{L}\_{\text{cyc}}(G,F)
+$$
+
+We're aiming to find
+
+$$
+G^\star, F^\star = \arg\min_{G, F}\max_{D_x, D_y} \mathcal{L}(G, F, D_X, D_Y)
 $$
 
 ---
