@@ -2,3 +2,5 @@
 Edu/Overview.md: Edu/Module-Overview.md
 Basics/Linear-Algebra/Singular%20value%20decomposition.md: Basics/Linear-Algebra/Singular
   value decomposition.md
+RL/Maximum%20entropy%20reinforcement%20learning.md: RL/Maximum entropy reinforcement
+  learning.md
