@@ -8,4 +8,12 @@ By the way, it's common practice to punctuate equations with commas or periods a
 a^2 + b^2 = c^2. \tag{Pythagorean Theorem}
 \end{equation}
 
+If you want a sequence of equations together, use a gather environment
+
+\begin{gather}
+1 + 1 = 2 \\\\
+2 + 2 = 4 \\\\
+4 + 4 = 8.
+\end{gather}
+
 **_NB_**: If your LaTeX code includes more than one underscore (_) or caret (^) or slash (/), you may need to escape the character by inserting a slash before it.
