@@ -11,3 +11,4 @@ Most of the information on this page can be found in the [gollum documentation](
 # Tutorial List
 
 - [[How to write a wiki article]]
+- [[LaTeX Tutorial]] (check this out even if you're familiar with LaTeX, there is some wiki-specific information here)
