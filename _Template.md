@@ -8,7 +8,7 @@ bibliography: ""
 
 * Why is this important?
 * When might somebody need to use this?
-* What prerequisites should they look at first?
+* What prerequisites should someone look at first?
 
 Write this so that an mlabber can skim it and quickly see why it's interesting. If you need citations, point to an appropriate bibliography file above.
 
