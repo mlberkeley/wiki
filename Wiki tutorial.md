@@ -42,6 +42,6 @@ CriticMarkup lets us mark editing changes in case we're unsure about something.
 - This is {--is --}a test.
 - This {++is ++}a test.
 - This {~~isn't~>is~~} a test.
-- This is a {==highlight==}.
+- This is a {==test==}.
 - This is a test{>>What is it a test of?<<}.
-- 
+
