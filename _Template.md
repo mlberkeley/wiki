@@ -2,17 +2,15 @@
 bibliography: ""
 ---
 
-# PAGE TITLE GOES HERE
+# [Title]
 
-**[Title of page]** is an algorithm/model/
-
-Put your summary here. Aim to answer the following questions:
+**[Topic]** is an algorithm/model/whatever it is that [whatever is most important to know]. [More summary goes here. Aim to answer the following questions:
 
 * Why is this important?
 * When might somebody need to use this?
 * What prerequisites should they look at first?
 
-If you need citations, point to the appropriate bibliography above. 
+If you need citations, point to the appropriate bibliography above.]
 
 
 # Analysis
