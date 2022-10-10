@@ -7,13 +7,6 @@ Go to a page and try to edit it. What you see in the editor is the whole source 
 
 You can link to another page in the wiki by writing `[[Name of article]]`.
 
-# CriticMarkup
-
-CriticMarkup lets us mark editing changes in case we're unsure about something. Peek into this file's source to see the notation.
-
-- This is {--is --}a test.
-- This {++is ++}a test.
-- This {~~isn't~>is~~} a test.
 
 # Pro Tips
 
