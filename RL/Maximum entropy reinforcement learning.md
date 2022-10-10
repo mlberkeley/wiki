@@ -9,7 +9,7 @@ bibliography: "./RL/rl.bib"
 The modified RL objective is now
 
 $$
-\arg\max_\pi  \mathbb{E}_\pi \left[ \sum_{t=1}^T r(s_t, a_t) + \color{red}\alpha \color{black} \right]
+\arg\max_\pi  \mathbb{E}_\pi \left[ \sum_{t=1}^T r(s_t, a_t) + \color{red}\alpha \mathcal{H} \color{black} \right]
 $$
 
 The strongest example of a MaxEnt RL algorithm is SAC [@pmlr-v80-haarnoja18b].
