@@ -12,7 +12,9 @@ where
 - $N$ is the number of demonstration.
 
 ## Use Cases
+
 Imitation learning works in
+
 - discrete and continuous state spaces
 - discrete and continuous action spaces
 
