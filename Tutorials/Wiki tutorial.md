@@ -1,6 +1,5 @@
 # Editing a page
 
-Make sure you know [[Best practices]] and [[How to write a wiki article]] before changing anything.
 
 Go to a page and try to edit it. What you see in the editor is the whole source for the file. To see how your changes will appear to the reader, go to the preview tab above. Feel free to put a more descriptive commit message in the box if you like. Then click 'Save' or just press Cmd+S.
 
