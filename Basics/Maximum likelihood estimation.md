@@ -3,3 +3,4 @@
 $$
 \theta^\star = \arg\max_\theta L(\theta; x)
 $$
+
