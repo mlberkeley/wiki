@@ -1,1 +1,1 @@
-Probability is a core tool in machine learning.
+Probability is a core tool in machine learning. It's covered in the second half of CS70 and in depth in EECS126.
