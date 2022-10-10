@@ -3,3 +3,9 @@ The **perceptron** is a simple binary classifier learning algorithm. Say you hav
 $$
 f(\mathbf{x}) = \operatorname{sgn}(\mathbf{w} \cdot \mathbf{x} + b)
 $$
+
+The update rule is 
+
+$$
+\mathbf{w} \leftarrow \mathbf{w} + \alpha y_i \mathbf{x}_i
+$$
