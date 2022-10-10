@@ -1,1 +1,11 @@
-Template for new page
+---
+bibliography: ""
+---
+
+# PAGE TITLE GOES HERE
+
+Put your summary here. 
+
+## Analysis
+
+## Synthesis
