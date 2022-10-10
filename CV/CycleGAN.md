@@ -15,6 +15,8 @@ $$
 F(G(X)) \approx X \tag{Cycle Consistency}
 $$
 
-
+$$
+\mathcal{L}_{\text{cyc}} = \mathbb{E}_{x \sim p_{\text{data}}(x)}\left[\right]
+$$
 
 ---
