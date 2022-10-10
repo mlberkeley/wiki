@@ -30,7 +30,7 @@ $$
 The full loss is 
 
 $$
-\mathcal{L}(G, F, D_X, D_Y) = \mathcal{L}_{\text{GAN}}(G, D_Y, X, Y) + \mathcal{L}_{\text{GAN}}(F, D_X, Y, X) + \lambda \mathcal{L}_{\text{cyc}}(G,F)
+\mathcal{L}(G, F, D_X, D_Y) = \mathcal{L}\_{\text{GAN}}(G, D_Y, X, Y) + \mathcal{L}\_{\text{GAN}}(F, D_X, Y, X) + \lambda \mathcal{L}\_{\text{cyc}}(G,F)
 $$
 
 ---
