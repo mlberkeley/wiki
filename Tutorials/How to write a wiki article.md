@@ -4,4 +4,4 @@ This page is a short tutorial on writing a wiki article.
 
 **Step 2**. Read the [[CycleGAN]] article to see how this looks in practice.
 
-**Step 3**. Remember to follow [[Best practices]]
+**Step 3**. That's it! You're ready to write your own article. Remember to follow [[Best practices]]
