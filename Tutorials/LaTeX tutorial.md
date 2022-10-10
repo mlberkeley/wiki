@@ -24,4 +24,4 @@ f(x) &= (x + a)^2 \\\\
 &= x^2 + 2ax + a^2
 \end{align}
 
-**_NB_**: If your LaTeX code includes more than one underscore (_) or caret (^) or slash (/), you may need to escape the character by inserting a slash before it.
+<<Info("If your LaTeX code includes more than one underscore (_) or caret (^) or slash (/), you may need to escape the character by inserting a slash before it.")>>
