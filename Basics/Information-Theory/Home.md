@@ -2,7 +2,7 @@
 bibliography: "./Basics/Information-Theory/info.bib"
 ---
 
-Information theory is a field that covers and intersects a lot of disciplines, which is why we have a whole folder for it.
+Information theory is a field that covers and intersects a lot of ML disciplines, which is why we have a whole folder for it.
 
 ## Recommended Reading
 
