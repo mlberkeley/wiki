@@ -4,7 +4,7 @@ $$
 f(\mathbf{x}) = \operatorname{sgn}(\mathbf{w} \cdot \mathbf{x})
 $$
 
-The update rule is 
+The update rule is that if $\hat{y}_i \neq y_i$, then
 
 $$
 \mathbf{w} \leftarrow \mathbf{w} + \alpha y_i \mathbf{x}_i
