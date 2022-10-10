@@ -9,7 +9,7 @@ bibliography: "./CV/cv.bib"
 Unpaired image-to-image translation
 : Given a domain of images $X$ which have some correspondence to a domain of images $Y$, learn a mapping $G$ that takes an $x$ and produces the corresponding $y$.
 
-For example, you might want to translate pictures of horses into pictures of zebras or pictures of apples to pictures of oranges, etc.
+Simple examples are translating pictures of horses into pictures of zebras or pictures of apples to pictures of oranges, but you might be able to see that this can help with style transfer tasks.
 
 # Analysis
 
