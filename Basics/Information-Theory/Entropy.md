@@ -1,1 +1,1 @@
-The **entropy** of a random variable $X$ is the average [[surprise]].
+The **entropy** of a random variable $X$ is defined as the expected [[surprise]] of $X$.
