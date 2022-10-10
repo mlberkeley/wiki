@@ -1,1 +1,3 @@
-One reason we use gollum is that it supports $\LaTeX$, a popular math typesetting software.
+One reason we use gollum is that it supports $\LaTeX$, a popular math typesetting software. In any file in the wiki, you can use LaTeX to include nicely rendered math.
+
+If you want the math to appear inline like $1+1=2$, then you should put it in single dollar signs: `$1+1=2$`.
