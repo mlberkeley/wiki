@@ -7,7 +7,3 @@ Go to a page and try to edit it. What you see in the editor is the whole source 
 
 You can link to another page in the wiki by writing `[[Name of article]]`.
 
-
-# Pro Tips
-
-- [Keyboard shortcuts](https://github.com/gollum/gollum/wiki#hotkeys)
