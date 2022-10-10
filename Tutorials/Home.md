@@ -5,3 +5,4 @@ This wiki is ultimately just a folder of text files -- see for yourself on [GitH
 
 - [[How to write a wiki article]]
 - [[LaTeX Tutorial]] (check this out even if you're familiar with LaTeX, there is some wiki-specific information here)
+- [Keyboard shortcuts](https://github.com/gollum/gollum/wiki#hotkeys)
