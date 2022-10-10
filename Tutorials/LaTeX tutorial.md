@@ -7,7 +7,7 @@ By the way, it's common practice to punctuate equations with commas or periods a
 If you want to refer to the equation, you can have it numbered
 
 \begin{equation}
-a^2 + b^2 = c^2.
+a^2 + b^2 = c^2. \tag{Pythagorean Theorem}
 \end{equation}
 
 If your LaTeX code includes more than one underscore (_) or caret (^) or slash (/), you may need to escape the character by inserting a slash before it.
