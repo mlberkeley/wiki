@@ -1,6 +1,6 @@
 # Tutorials Homepage
 
-This folder contains a number of tutorials for wiki.
+This folder contains information about using wiki in the form of tutorials.
 
 # How does wiki work?
 
