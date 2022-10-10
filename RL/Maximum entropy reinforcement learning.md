@@ -14,6 +14,7 @@ $$
 
 where $\mathcal{H}$ is the [[entropy]].
 
-The strongest example of a MaxEnt RL algorithm is SAC [@pmlr-v80-haarnoja18b].
+- The strongest example of a MaxEnt RL algorithm is SAC [@pmlr-v80-haarnoja18b].
+- A [BAIR blog post](https://bair.berkeley.edu/blog/2021/03/10/maxent-robust-rl/) explaining why MaxEnt RL is good: it's a more robust optimization.
 
 ---
