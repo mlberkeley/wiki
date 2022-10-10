@@ -1,6 +1,9 @@
 # Double Q-Learning
+
 Requirements: [[DQN]]
+
 ## Resources
+
 - [Towards Data Science](https://towardsdatascience.com/double-deep-q-networks-905dd8325412)
 - [van Hasselt et al. (2010)](https://arxiv.org/pdf/1509.06461.pdf), which introduced double Q learning
 - [van Hasselt et al. (2015)](https://arxiv.org/pdf/1509.06461.pdf), which refined double Q learning in light of new developments after the release of DQN
