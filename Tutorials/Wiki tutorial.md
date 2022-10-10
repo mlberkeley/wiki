@@ -1,7 +1,3 @@
-# Markdown
-
-Pages should be written in markdown, which is the default setting. Markdown is a human-readable (i.e. close to plain text) format and all popular editors and wiki tools can render it out of the box.
-
 # Editing a page
 
 Make sure you know [[Best practices]] and [[How to write a wiki article]] before changing anything.
