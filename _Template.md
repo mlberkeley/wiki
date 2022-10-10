@@ -4,7 +4,7 @@ bibliography: ""
 
 # [Title]
 
-**[Topic] (abbreviation if it has one)** is an algorithm/model/idea that [whatever is most important to know / how is it different from similar ideas]. In your summary here, aim to answer the following questions:
+**[Topic] ([abbreviation if it has one])** is an algorithm/model/idea that [whatever is most important to know / how is it different from similar ideas]. In your summary here, aim to answer the following questions:
 
 * Why is this important?
 * When might somebody need to use this?
