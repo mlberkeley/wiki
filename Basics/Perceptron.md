@@ -1,4 +1,4 @@
-The **perceptron** is a simple binary classifier learning algorithm. Say you have a dataset $D = \\{(\mathbf{x}\_i, y_i)\\}_{i=1}^n$
+The **perceptron** is a simple binary classifier learning algorithm. Say you have a dataset $D = \\{(\mathbf{x}\_i, y_i)\\}_{i=1}^n$. The labels $y_i \in \\{+1, -1\\}$
 
 Given an input $\mathbf{x}$, the perceptron predicts
 
