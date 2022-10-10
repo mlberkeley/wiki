@@ -11,7 +11,9 @@ Double Q-learning refers to two techniques invented to combat overestimation in 
 Both technqiues make use of the following observation:
 
 In the standard Q-learning setup, we gather transitions $(s, a, r, s')$ and train a neural network $Q_\theta(s, a)$ to satisfy
-$$\begin{align*}Q_\theta(s, a) &= r + \gamma \max_{a'\in A}Q_{\theta'}(s', a')\\&=r + \gamma Q_{\theta'}\left(s', \mathop{\text{argmax}}_{a'\in A}Q_{\theta'}(s', a')\right)\end{align*}$$
+
+$$\begin{align\*}Q_\theta(s, a) &= r + \gamma \max_{a'\in A}Q_{\theta'}(s', a')\\&=r + \gamma Q_{\theta'}\left(s', \mathop{\text{argmax}}_{a'\in A}Q_{\theta'}(s', a')\right)\end{align\*}$$
+
 where $\theta'$ are the parameters of the target network. As we show above, the maximum over the target network $Q_{\theta'}$ subtly involves an argmax over $Q_{\theta'}$ and a subsequent evaluation of $Q_{\theta'}$.
 
  This raises an interesting question: should we be using the same network to find the optimal next action as we use to evaluate this action?
