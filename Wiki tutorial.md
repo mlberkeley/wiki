@@ -10,7 +10,7 @@ Most of the information on this page can be found in the [gollum documentation](
 
 # Markdown
 
-Pages should be written in markdown, which is the default setting. Markdown is probably the most human-readable (i.e. close to plain text) and all the popular editors and wiki tools know how to render it out of the box.
+Pages should be written in markdown, which is the default setting. Markdown is a human-readable (i.e. close to plain text) format and all the popular editors and wiki tools know how to render it out of the box.
 
 # Editing a page
 
