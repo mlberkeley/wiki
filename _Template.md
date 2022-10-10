@@ -10,9 +10,7 @@ bibliography: ""
 * When might somebody need to use this?
 * What prerequisites should they look at first?
 
-Assume that this is what most mlabbers will look at or skim.
-
-If you need citations, point to an appropriate bibliography file above.
+Write this so that an mlabber can skim it and quickly see why it's interesting. If you need citations, point to an appropriate bibliography file above.
 
 # Analysis
 
