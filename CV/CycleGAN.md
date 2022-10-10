@@ -11,6 +11,8 @@ Unpaired image-to-image translation
 
 Simple examples are translating pictures of horses into pictures of zebras or pictures of apples to pictures of oranges, but you might be able to see that this can help with style transfer tasks.
 
+The key idea in this work is hinted at in the word cycle. The way to construct an objective is to try to learn two mappings: one from $X$ to $Y$ and, separately, one from $Y$ to $X$. Then, you can stipulate that these should be inverse functions, so that if I try to convert an apple to a corresponding orange back to an apple, I get back the same apple.
+
 # Analysis
 
 If we had a dataset $\\{x_i, y_i\\}\_{i=1}^n$, this would be a simpler, supervised learning problem. Unpaired means that what we have is $\\{x\_i\\}\_{i=1}^N$ and $\\{y_j\\}_{j=1}^M$. The key idea is that to learn $G$ we learn an inverse mapping $F: Y \to X$ and force
