@@ -4,13 +4,7 @@ bibliography: ""
 
 # Maximum Entropy Reinforcement learning
 
-**Maximum entropy reinforcement learning (MaxEnt RL)** is an algorithm/model/idea that [whatever is most important to know / how is it different from similar ideas]. In your summary here, aim to answer the following questions:
-
-* Why is this important?
-* When might somebody need to use this?
-* What prerequisites should they look at first?
-
-Write this so that an mlabber can skim it and quickly see why it's interesting. If you need citations, point to an appropriate bibliography file above.
+**Maximum entropy reinforcement learning (MaxEnt RL)** is a variant on the standard RL formulation where we encourage our policy to have as high an entropy as it can. You'll want to understand that formulation first before you dive into this one.
 
 # Analysis
 
