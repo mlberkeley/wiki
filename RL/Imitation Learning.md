@@ -33,6 +33,6 @@ Imitation Learning
 
 > Initialize policy NN $\pi_\theta:S\to A$ with random weights $\theta$\
 > **for** $\left(s_t^{(i)}, a_t^{(i)}\right)\in \mathcal{D}$ **do**:\
-> $\qquad$ Set our loss to $L(\theta) = \sum_{j} \left(a_t^{(i)} - \pi_\theta\left(s_t^{(i)}\right)\right)^2$\
+> $\qquad$ Set our loss to $L(\theta) = \sum_{j} \left(a_t^{(i)} - \pi_\theta\left(s_t\^{(i)}\right)\right)^2$\
 > $\qquad$ Perform gradient descent on $L$ to update $\theta$
 
