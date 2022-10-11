@@ -7,5 +7,5 @@ For example, say I'm trying to encode strings where each character is independen
 The entropy of $X$ is defined as the expected [[surprise]] of $X$.
 
 $$
-\mathbb{E}
+H[X] = \mathbb{E}\left[\log \frac{1}{p(x)}\right]
 $$
