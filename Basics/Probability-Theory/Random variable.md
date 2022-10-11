@@ -1,0 +1,1 @@
+A **random variable** $X(\omega)$ is the result of an experiment in probability
