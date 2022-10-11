@@ -2,11 +2,17 @@ One reason we use gollum is that it supports $\LaTeX$, a popular math typesettin
 
 If you want the math to appear inline like $1+1=2$, then you should put it in single dollar signs: `$1+1=2$`. On the other hand, if you want it to appear as its own line, then put it in double dollar signs `$$1+1=2$$`: $$1+1=2.$$
 
-By the way, it's common practice to punctuate equations with commas or periods at the end, depending on how it's used in a sentence. If you want to refer to the equation, wrap it like so `\begin{equation}1+1=2\end{equation}`
+By the way, it's common practice to punctuate equations with commas or periods at the end, depending on how it's used in a sentence. If you want to refer to the equation, wrap it like so `\begin{equation}1+1=2\end{equation}` to get it numbered.
 
 \begin{equation}
 a^2 + b^2 = c^2. 
 \end{equation}
+
+You can even change the label with `\tag{}`
+
+$$
+a^2 + b^2 = c^2. \tag{Pythagorean Theorem}
+$$
 
 If you want a sequence of equations together, use a gather environment
 
