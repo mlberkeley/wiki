@@ -18,6 +18,6 @@ This section is for going a little deeper. Try to analyze (break apart) how the 
 
 # Synthesis
 
-Think of this section as expert-level. The reader knows the high-level idea as well as the fundamental building blocks. Put it together for them. Don't be afraid to present a complicated proof if you deem it relevant.
+Think of this section as expert-level. The reader knows the high-level idea as well as the fundamental building blocks. Synthesize (put it together) for them. Don't be afraid to present a complicated proof if you deem it relevant.
 
 ---
