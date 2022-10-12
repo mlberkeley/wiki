@@ -7,3 +7,5 @@ The **surprise** or **information content** of an event in information theory is
 $$
 h(p) = \log \frac{1}{p}
 $$
+
+---
