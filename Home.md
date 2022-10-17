@@ -1,4 +1,4 @@
-Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) (link to GitHub) contains all our technical knowledge. Consult the table below to figure out next steps.
+Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) (link to GitHub) contains all our technical knowledge. 
 
 # Search
 
