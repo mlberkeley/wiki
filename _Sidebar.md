@@ -1,1 +1,1 @@
-This is the sidebar!
+* [CV](/CV)
