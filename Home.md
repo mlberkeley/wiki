@@ -1,8 +1,8 @@
 # ML@B Wiki
 
-# What is Wiki?
-
 ![](https://ml.berkeley.edu/static/media/mlab-logo-horizontal-small.3d4a6012.png)
+
+# What is Wiki?
 
 Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) (link to GitHub) contains all our technical knowledge. 
 
