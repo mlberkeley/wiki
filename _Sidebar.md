@@ -1,3 +1,5 @@
 * [CV](/CV/Home)
 * [NLP](/NLP/Home)
 * [RL](/RL/Home)
+* [Contribute to Wiki](/A-Guide-To-Contributing-To-Wiki/)
+* [Basics](/Basics/Home)
