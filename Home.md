@@ -1,4 +1,4 @@
-# Wiki
+# ML@B Wiki
 
 Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) (link to GitHub) contains all our technical knowledge. 
 
