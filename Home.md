@@ -15,5 +15,4 @@ Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) 
 
 ## Contribute to Wiki
 
-* You can add or edit articles
-* [Contribution Guide](./A-Guide-To-Contributing-To-Wiki/)
+If you are interested in adding or editing articles, look at the [Contribution Guide](./A-Guide-To-Contributing-To-Wiki/)
