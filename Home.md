@@ -2,6 +2,10 @@ Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) 
 
 # Search
 
+* You can use search bar
+* You can use the side bar
+* [[Organization]]
+
 # Contribute
 
 [[include:A-Guide-To-Contributing-To-Wiki/Best Practices]]
