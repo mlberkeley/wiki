@@ -8,4 +8,7 @@ Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) 
 
 # Contribute
 
+* You can add or edit articles
+* [Contribution Guide](./A-Guide-To-Contributing-To-Wiki/)
+
 [[include:A-Guide-To-Contributing-To-Wiki/Best Practices]]
