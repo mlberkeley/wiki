@@ -9,9 +9,11 @@ Welcome to the ML@B Wiki! This [repository](https://github.com/mlberkeley/wiki) 
 
 ## Search Wiki
 
-* You can use search bar
-* You can use the side bar
-* [[Organization]]
+There are a couple different ways to search for something in wiki.
+
+* You can use search bar at the top of the page.
+* You can use the side bar to navigate to high-level areas.
+* Browse [[Table of Contents]].
 
 ## Contribute to Wiki
 
