@@ -8,4 +8,4 @@
 
 ## Module List:
 
-<<GlobalTOC(/edu)>>
+<<GlobalTOC('/edu')>>
