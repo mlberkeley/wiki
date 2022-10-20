@@ -8,4 +8,4 @@
 
 ## Module List:
 
-<<Navigation("Edu Modules", "/edu", false)>>
+<<Navigation("Edu Modules", "Edu/Modules", false)>>
