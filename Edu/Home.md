@@ -8,4 +8,4 @@
 
 ## Module List:
 
-<<GlobalTOC('/Edu')>>
+<<Navigation("Edu Modules", "/Edu", false)>>
