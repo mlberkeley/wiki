@@ -7,7 +7,10 @@ To update the [website](http://ml.berkeley.edu/blog), follow these steps.
 3. Run `gatsby build`.
 4. Push your changes.
 5. SSH into `mlab@apphost.ocf.berkeley.edu`
-6. 
+6. `cd myapp`
+7. Pull from the repo.
+8. That's it!
 
+# Debugging
 
 If you find that the blog page is blank, and especially if you see `Uncaught SyntaxError: Unexpected token '<'` in the console, you need to `gatsby clean` before you `gatsby build`.
