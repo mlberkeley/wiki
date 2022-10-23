@@ -1,5 +1,3 @@
-# Blog
-
 The ML@B blog is part of the [mlab-site](https://github.com/mlberkeley/mlab-site) repo at  [`src/blog`](https://github.com/mlberkeley/mlab-site/tree/master/src/blog). Posts go in [`content`](https://github.com/mlberkeley/mlab-site/tree/master/src/blog/content/posts).
 
 To update the [website](http://ml.berkeley.edu/blog), follow these steps.
