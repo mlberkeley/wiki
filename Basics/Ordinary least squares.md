@@ -7,5 +7,5 @@ $$
 The solution is
 
 $$
-w^\star = (X\^\mathsf{T}X)^{-1}X^\mathsf{T}y
+w^\star = (X^\mathsf{T}X)\^{-1}X^\mathsf{T}y
 $$
