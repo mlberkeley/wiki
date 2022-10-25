@@ -1,0 +1,1 @@
+**Empirical risk minimization (ERM)** is a framework for thinking about supervised learning. 
