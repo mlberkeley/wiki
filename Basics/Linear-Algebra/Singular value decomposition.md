@@ -1,5 +1,7 @@
-**Singular value decomposition (SVD)** is a matrix decomposition for any matrix $A$ such that
+**Singular value decomposition (SVD)** is an extremely powerful matrix decomposition because it applies to any matrix; in particular, it says that any matrix $A$ can be written as
 
 $$
-A = U\Sigma V^\mathsf{T}
+A = U\Sigma V^\mathsf{T},
 $$
+
+where $U$ and $V$ are orthogonal matrices and $\Sigma$ is a diagonal matrix.
