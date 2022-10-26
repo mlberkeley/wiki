@@ -1,6 +1,6 @@
-**Attention**. It's the mechanism used in the [[Transformer]] architecture that, intuitively speaking, answers the question _what part of the input should we focus on?_
+**Attention**. It's the mechanism used in the [[Transformer]] architecture that, intuitively speaking, tells the model what part of the input to focus on in a [[Seq2Seq]] task such as translating an English sentence into French. 
 
-Imagine a [[Seq2Seq]] task such as translating an English sentence into French. We might use an RNN with an encoder, whereby the final hidden state is handed to a decoder. But this means that we're putting a lot of burden on this final hidden state to compress the entire sentence.
+
 
 The attention mechanism can take in a sequence like "The big red dog" and give us a vector to tell us what to pay attention to. 
 
@@ -32,3 +32,10 @@ where softmax is applied row-wise.
 $$
 V_i' = \frac{\sum_{j=1}^N \mathsf{sim}(Q_i, K_j)V_j  }{\sum_{j=1}^N \mathsf{sim}(Q_i , K_j) }
 $$
+
+# Advantages
+
+Compare to RNN with an encoder, whereby the final hidden state is handed to a decoder, therefore lot of burden on this final hidden state to compress the entire sentence.
+
+- Parallelizable
+- No hidden state
