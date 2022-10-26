@@ -1,0 +1,1 @@
+A **convolution** is an operation on images. Say the input has shape $(W, H, C)$
