@@ -8,7 +8,7 @@ $$
 
 # Analysis
 
-Using a little vector calculus, we can find a closed form solution to this equation.
+We can find the optimal $w$ by setting the gradient equal to 0.
 
 \begin{gather\*}
 \nabla_w \langle y - Xw,  y - Xw \rangle = 0 \\\\
