@@ -7,6 +7,10 @@ Attention selectively stores the information. Query the encoder hidden states wi
 The input sequence $x$ is projected by three matrices $W_Q \in \RR^{F \times D}, W_K \in \RR^{F \times D}, W_V \in \RR^{F \times M}$.
 
 $$
+Q = x W_q
+$$
+
+$$
 \mathsf{Attention}(Q, K, V) = \operatorname{softmax}\left( \frac{QK^\mathsf{T}}{\sqrt{d_k}} \right)V,
 $$
 
