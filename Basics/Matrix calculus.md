@@ -1,1 +1,1 @@
-**Matrix calculus** is just using the familiar notions of single-variable calculus for functions of vectors and matrices.
+**Matrix calculus** is just using the familiar notions of single-variable calculus for functions of vectors and matrices. A popular resource is [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf).
