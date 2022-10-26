@@ -16,11 +16,11 @@ As you can see, we recover OLS by simply setting $\lambda = 0$ everywhere. As $\
 # Analysis
 
 $$
-\begin{bmatrix}X \\\\ \sqrt{\lambda} I_d \end{bmatrix}w \approx \begin{bmatrix}y \\\\ 0 \end{bmatrix} \tag{Data-Augmentation View}
+\begin{bmatrix}X \\\\ \sqrt{\lambda} I_d \end{bmatrix}w \approx \begin{bmatrix}y \\\\ 0 \end{bmatrix} \tag{Data Augmentation View}
 $$
 
 $$
-\begin{bmatrix}X & \sqrt{\lambda} I_n \end{bmatrix} \begin{bmatrix} w \\\\ f\end{bmatrix} \approx y \tag{Feature-Augmentation View}
+\begin{bmatrix}X & \sqrt{\lambda} I_n \end{bmatrix} \begin{bmatrix} w \\\\ f\end{bmatrix} \approx y \tag{Feature Augmentation View}
 $$
 
 # Synthesis
