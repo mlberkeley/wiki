@@ -8,9 +8,9 @@ $$
 
 Using a little vector calculus, we can find a closed form solution to this equation.
 
-$$
+\begin{gather\*}
 \nabla_w ( y - Xw)^\mathsf{T}( y - Xw ) = 0
-$$
+\end{gather\*}
 
 $$
 w^\star = (X\^\mathsf{T}X)\^{-1}X^\mathsf{T}y \tag{OLS Solution}
