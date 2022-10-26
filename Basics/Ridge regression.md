@@ -4,6 +4,8 @@ $$
 w^\star = \arg\min_w \lVert Xw - y \rVert^2 + \lambda \lVert w \rVert^2
 $$
 
+The closed form solution is
+
 $$
 w\^\star = (X\^\mathsf{T}X + \lambda I_{d})\^{-1}X^\mathsf{T}y
 $$
