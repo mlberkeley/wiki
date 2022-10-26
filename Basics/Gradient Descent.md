@@ -24,6 +24,6 @@ w_{t +1 } &= w_t - \eta \nabla_{w_t} \lVert y - Xw_t \rVert^2 \\\\
 Let's take a very simple example. Our parameter is a scalar $w$, and our equation is $y = wx$. We want to minimize $L(w) = (y - x w)^2$.
 
 $$
-w_{t + 1} = w_t - \eta \nabla_{w_t} (y - x w_t)^2
+w_{t + 1} = w_t - \eta \frac{\partial}{\partial w_t} (y - x w_t)^2
 $$
 
