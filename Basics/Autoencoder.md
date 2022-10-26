@@ -8,3 +8,7 @@ x &\mapsto z \\\\
 z &\mapsto x
 \end{align\*}
 
+
+$$
+\theta, \phi = \arg\min_{\Theta, \Phi}
+$$
