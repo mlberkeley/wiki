@@ -11,3 +11,7 @@ Using a little vector calculus, we can find a closed form solution to this equat
 $$
 w^\star = (X\^\mathsf{T}X)\^{-1}X^\mathsf{T}y \tag{OLS Solution}
 $$
+
+$$
+w^\star = X^\dagger y
+$$
