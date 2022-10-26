@@ -4,6 +4,8 @@ An RNN is a neural network designed to address the problem that standard neural 
 
 ![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/RNN-unrolled.png)
 
+The hidden state depends both on the past hidden state and the current input. An example is
+
 $$
 h_t = \sigma(W^h h_{t-1} + W^x x_t + b)
 $$
