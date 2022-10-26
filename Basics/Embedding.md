@@ -1,0 +1,1 @@
+**Embedding**. An embedding is a lower dimensional representation of higher dimensional data.
