@@ -20,8 +20,6 @@ As you can see, we recover OLS by simply setting $\lambda = 0$ everywhere. As $\
 
 # Analysis
 
-Consider the [[singular value decomposition]] of $X$
-
 $$
 \begin{bmatrix}X \\\\ \sqrt{\lambda} I_d \end{bmatrix}w \approx \begin{bmatrix}y \\\\ 0 \end{bmatrix} \tag{Data-Augmentation View}
 $$
