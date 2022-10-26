@@ -1,4 +1,4 @@
-**Ridge regression** is an extension to [[ordinary least squares]] where we add a penalty to the $\ell^2$ norm on the weights $w$ with proportionality constant $\lambda$. Again, we have $X \in \RR^{n \times d}$, $w \in \RR^d$, and $y \in \RR^n$.
+**Ridge regression** is an extension to [[ordinary least squares]] with [[regularization]] in the form of a L2 norm penalty on the weights with proportionality constant $\lambda$. Again, we have $X \in \RR^{n \times d}$, $w \in \RR^d$, and $y \in \RR^n$.
 
 $$
 w^\star = \arg\min_w \lVert Xw - y \rVert^2 + \lambda \lVert w \rVert^2
