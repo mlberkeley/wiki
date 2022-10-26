@@ -5,7 +5,9 @@ bibliography: "./NLP/nlp-papers.bib"
 
 # Transformers
 
-**Transformer.** Transformers are an architecture first described by @https://doi.org/10.48550/arxiv.1706.03762 that overtaken RNNs, LSTMs and similar.
+**Transformer.** Make sure you understand [[Attention]] first.
+
+Transformers are an architecture first described by @https://doi.org/10.48550/arxiv.1706.03762 that overtaken RNNs, LSTMs and similar.
 
 ![](https://miro.medium.com/max/1400/1*BHzGVskWGS_3jEcYYi6miQ.png)
 
