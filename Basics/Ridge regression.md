@@ -21,5 +21,5 @@ $$
 In general, we can have the loss be
 
 $$
-\lVert Xw - y \rVert^2 + \lambda \lVert \Gamma w \rVert^2
+\lVert Xw - y \rVert^2 + \lVert \Gamma w \rVert^2
 $$
