@@ -4,13 +4,17 @@ bibliography: "./Basics/basics.bib"
 
 **Graph neural networks (GNN)**. Make sure you understand [[CNN]] first. 
 
-A graph neural network operates on graphs as inputs. For a good introduction, check out @sanchez-lengeling2021a. At a high level, a GNN will output a graph of the same topology, and use that output to determine something about the input.
+A graph neural network operates on graphs as inputs. For a good introduction, check out @sanchez-lengeling2021a. At a high level, a GNN will output a graph of the same topology, and use that output to
+
+- predict a property of the whole graph
+- predict a property for each node
+- predict a property for each edge
 
 [[https://distill.pub/2021/gnn-intro/Overall.e3af58ab.png]]
 
 The layers of a GNN take in a graph and output a graph of the same topology but with potentially different values in the nodes and edges. The graph embedding can then be used for a downstream task.
 
-Given a graph, there are three kinds of tasks we may want to perform: predict a property for the whole graph, or for each node, or for each edge. In the simplest architecture, we learn embeddings for each of these three attributes (we'll leave aside connectivity for now).
+In the simplest architecture, we learn embeddings for each of these three attributes (we'll leave aside connectivity for now).
 
 ![](https://distill.pub/2021/gnn-intro/arch_independent.0efb8ae7.png)
 
