@@ -13,5 +13,5 @@ As you can see, we recover OLS by simply setting $\lambda = 0$ everywhere.
 # Analysis
 
 $$
-\begin{bmatrix}X \\\\ \sqrt{\lambda} I w \approx \begin{bmatrix}y \\\\ 0 \end{bmatrix} \end{bmatrix}
+\begin{bmatrix}X \\\\ \sqrt{\lambda} I \end{bmatrix}w \approx \begin{bmatrix}y \\\\ 0 \end{bmatrix}
 $$
