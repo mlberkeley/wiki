@@ -1,1 +1,1 @@
-**Sequence-to-sequence modeling (Seq2seq_**
+**Sequence-to-sequence modeling (Seq2seq)**. 
