@@ -3,7 +3,7 @@
 Gradient descent is the basic algorithm used to train a [[neural network]]. If the weights of the network are $\theta$ and the loss function is $\mathcal{L}(\theta)$, then gradient descent consists in iteratively computing the following update:
 
 $$
-\theta \leftarrow \theta - \alpha \nabla_\theta \mathcal{L}(\theta)
+\theta \leftarrow \theta - \alpha \nabla_\theta \mathcal{L}(\theta) \tag{Vanilla Gradient Descent}
 $$
 
 Applying the gradient descent algorithm in practice requires [[backpropagation]] and [[automatic differentiation]].
