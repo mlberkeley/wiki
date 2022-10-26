@@ -30,4 +30,5 @@ $$
 
 # Synthesis
 
-The matrix $X^\mathsf{T}X$ is only invertible when the rank of $X$ is $d$, i.e. each of the columns is linearly independent. [[Ridge regression]] is also an important extension to least squares.
+- The matrix $X^\mathsf{T}X$ is only invertible when the rank of $X$ is $d$, i.e. each of the columns is linearly independent. 
+- [[Ridge regression]] is also an important extension to least squares.
