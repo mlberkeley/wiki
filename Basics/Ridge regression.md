@@ -33,7 +33,7 @@ $$
 Suppose we do the [[singular value decomposition]] $X = U \Sigma V^\mathsf{T}$. Then,
 
 $$
-w^\star = (V\Sigma^2 V^\mathsf{T} + \lambda I_{d})\^{-1}X^\mathsf{T}y
+w^\star = (V\Sigma^2 V^\mathsf{T} + \lambda I_{d})\^{-1}V\Sigma U^\mathsf{T}y
 $$
 
 In general, we can have the loss be
