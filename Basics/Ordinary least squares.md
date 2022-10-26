@@ -1,4 +1,4 @@
-**Ordinary least squares (OLS)** is a method for determining the parameters $w \in \RR^d$ to a linear model $Xw \approx y$ when you have [[design matrix]] $X \in \RR^{n \times d}$ and labels $y$.
+**Ordinary least squares (OLS)** is a method for determining the parameters $w \in \RR^d$ to a linear model $Xw \approx y$ when you have [[design matrix]] $X \in \RR^{n \times d}$ and labels $y \in \RR^n$.
 
 $$
 w^\star = \arg\min_w \lVert y - Xw \rVert^2
