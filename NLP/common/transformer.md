@@ -24,6 +24,8 @@ $$
 
 ## Attention
 
+![](https://production-media.paperswithcode.com/methods/SCALDE.png)
+
 # Synthesis
 
 ![](https://miro.medium.com/max/1400/1*BHzGVskWGS_3jEcYYi6miQ.png)
