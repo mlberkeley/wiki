@@ -1,0 +1,1 @@
+**Weight initialization.** When you instantiate a [[neural network]], you have to consider what the initial weight values are. 
