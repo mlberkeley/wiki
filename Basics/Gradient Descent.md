@@ -18,3 +18,7 @@ The simplest setting to try GD on is [[ordinary least squares]].
 w_{t +1 } &= w_t - \eta \nabla_{w_t} \lVert y - Xw_t \rVert^2 \\\\
 &= w_t - 2\eta X^\mathsf{T} (y - Xw_t)
 \end{align\*}
+
+## Convergence
+
+Let's take a very simple example. Our parameter is a scalar $w$ and we want to minimize $L(w) = (y - \sigma w)^2$.
