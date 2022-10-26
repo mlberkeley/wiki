@@ -6,6 +6,8 @@ $$
 \theta_{t + 1} =  \theta_t - \eta \nabla_\theta \mathcal{L}(\theta) \tag{Vanilla Gradient Descent}
 $$
 
+The hyperparameter $\eta$ is called the **learning rate**. The larger the learning rate, the bigger the delta or step in an iteration. The steps need to be big enough that the model is improving, but not so big as to overshoot.
+
 Applying the gradient descent algorithm in practice requires [[backpropagation]] and [[automatic differentiation]].
 
 # Analysis
