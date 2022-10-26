@@ -13,10 +13,13 @@ As you can see, we recover OLS by simply setting $\lambda = 0$ everywhere.
 # Analysis
 
 $$
-\lVert Xw - y \rVert^2 + \lambda \lVert w \rVert^2 = \lVert Xw - y \rVert^2 + \lambda w^\mathsf{T}Iw
-$$
-
-
-$$
 \begin{bmatrix}X \\\\ \sqrt{\lambda} I_d \end{bmatrix}w \approx \begin{bmatrix}y \\\\ 0 \end{bmatrix} \tag{Data-Augmentation View}
+$$
+
+# Synthesis
+
+In general, we can have the loss be
+
+$$
+\lVert Xw - y \rVert^2 + \lambda \lVert \Gamma w \rVert^2
 $$
