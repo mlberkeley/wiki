@@ -6,7 +6,7 @@ bibliography: "./Basics/basics.bib"
 
 A graph neural network operates on graphs as inputs. For a good introduction, check out @sanchez-lengeling2021a. At a high level, a GNN will output a graph of the same topology, and use that output to
 
-- predict a property of the whole graph
+- predict a global property of the graph
 - predict a property for each node
 - predict a property for each edge
 
