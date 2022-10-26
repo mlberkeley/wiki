@@ -1,4 +1,4 @@
-**Attention**. It's the mechanism used in the [[Transformer]] architecture that, intuitively speaking, tells the model what part of the input to focus on in a [[Seq2Seq]] task such as translating an English sentence into French. 
+**Attention**. It's the mechanism used in the [[Transformer]] architecture that, intuitively speaking, tells the model what part of the input to focus on. Take a [[Seq2Seq]] task such as translating an English sentence into French. 
 
 
 
