@@ -1,2 +1,1 @@
-Requirements: [[Backpropagation]]
-Resources:
+A **neural network (NN)** is a differentiable function approximator.
