@@ -30,3 +30,7 @@ The stride is how big the steps are.
 # Receptive Field
 
 The receptive field for a pixel in the output is the set of pixels from the image it depends on. To increase receptive field, we use [[pooling]].
+
+# 1x1
+
+A 1x1 convolution
