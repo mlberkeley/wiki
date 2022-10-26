@@ -4,7 +4,7 @@ $$
 w^\star = \arg\min_w \lVert Xw - y \rVert^2 + \lambda \lVert w \rVert^2
 $$
 
-The closed form solution is
+The closed form solution can be written in one of two completely equivalent ways.
 
 
 |Classic Form|Kernel Form|
