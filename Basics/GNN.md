@@ -10,4 +10,8 @@ Given a graph, there are three kinds of tasks we may want to perform: predict a 
 
 If you want to do node prediction, then apply a classifier to each node embedding.
 
+# Pooling
+
+Pooling gives information from the edges to the nodes. That involves gathering the embeddings, then aggregating them.
+
 ---
