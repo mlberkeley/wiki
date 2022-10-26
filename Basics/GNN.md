@@ -4,7 +4,9 @@ bibliography: "./Basics/basics.bib"
 
 **Graph neural networks (GNN)**. Make sure you understand [[CNN]] first. 
 
-A graph neural network operates on graphs as inputs. For a good introduction, check out @sanchez-lengeling2021a.
+A graph neural network operates on graphs as inputs. For a good introduction, check out @sanchez-lengeling2021a. 
+
+[[https://distill.pub/2021/gnn-intro/Overall.e3af58ab.png]]
 
 The layers of a GNN take in a graph and output a graph of the same topology but with potentially different values in the nodes and edges. The graph embedding can then be used for a downstream task.
 
