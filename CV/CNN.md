@@ -1,0 +1,1 @@
+**Convolutional neural network (CNN)**. Make sure you understand [[neural network]] first.
