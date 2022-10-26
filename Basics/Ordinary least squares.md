@@ -1,4 +1,4 @@
-**Ordinary least squares (OLS)**. Suppose you have labels $y$ and a [[design matrix]] $X \in \RR^{n \times d}$ with $n$ examples and $d$ features (typically, $n \gg d$).  is a method for determining the parameters $w \in \RR^d$ to a linear model $Xw \approx y$ when you have  and labels $y \in \RR^n$.
+**Ordinary least squares (OLS)**. Suppose you have labels $y$ and a [[design matrix]] $X \in \RR^{n \times d}$ with $n$ examples and $d$ features (typically, $n \gg d$). OLS will find the parameters $w \in \RR^d$ for the linear approximation $Xw \approx y$.
 
 $$
 w^\star = \arg\min_w \lVert y - Xw \rVert^2
