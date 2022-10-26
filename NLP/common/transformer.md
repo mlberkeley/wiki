@@ -16,7 +16,7 @@ T_\ell(x) = f_\ell(A_\ell(x) + x)
 $$
 
 - $f_\ell$ transforms each feature independently of the others
-- $A_\ell$ is the self-attention function, the only part of transformer that acts across sequences.
+- $A_\ell$ is the self-[[attention]] function, the only part of transformer that acts across sequences.
 
 
 ---
