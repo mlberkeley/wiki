@@ -11,6 +11,10 @@ bibliography: "./NLP/nlp-papers.bib"
 
 A transformer is a function $T: \RR^{N \times F} \to \RR^{N \times F}$ that takes $x \in \RR^{N \times F}$, a sequence of $N$ features vectors of dimension $F$.
 
+$$
+T_\ell(x) = f_\ell(A_\ell(x) + x)
+$$
+
 
 
 ---
