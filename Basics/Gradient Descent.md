@@ -25,6 +25,7 @@ Let's take a very simple example. Our parameter is a scalar $w$, and our equatio
 
 \begin{align\*}
 w_{t + 1} &= w_t - \eta \frac{\partial}{\partial w_t} (y - x w_t)^2 \\\\
-&= w_t + 2\eta x(y - xw_t)
+&= w_t + 2\eta x(y - xw_t) \\\\
+&= (1 - 2\eta x)^2 w_t + 2\eta x y
 \end{align\*}
 
