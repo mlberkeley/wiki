@@ -1,0 +1,1 @@
+**Graph neural network (GNN)** is a kind of extension to [[CNN]].
