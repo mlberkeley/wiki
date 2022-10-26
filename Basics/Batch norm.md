@@ -7,6 +7,6 @@ bibliography: "./Basics/basics.bib"
 At training time, the layer uses a minibatch of data to estimate the mean and variance of each feature. These are then used to center and normalize the minibatch. A running average of these means and variances is kept during training, and at test time the running averages are used to center and normalize features.
 
 > $$\mu_{\mathcal B} \leftarrow \frac{1}{m} \sum_{i=1}^m x_i$$
-> $$\sigma^2_{\mathcal B}\leftarrow \frac{1}{m} \sum_{i=1}^m {x_i - \mu_{\mathcal B}}^2$$
+> $$\sigma^2_{\mathcal B}\leftarrow \frac{1}{m} \sum_{i=1}^m \left(x_i - \mu_{\mathcal B}\right)^2$$
 
 ---
