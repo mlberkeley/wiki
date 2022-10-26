@@ -9,7 +9,7 @@ $$
 Using a little vector calculus, we can find a closed form solution to this equation.
 
 $$
-\nabla_w ( y - Xw)^\mathsf{T}( y - Xw )
+\nabla_w ( y - Xw)^\mathsf{T}( y - Xw ) = 0
 $$
 
 $$
