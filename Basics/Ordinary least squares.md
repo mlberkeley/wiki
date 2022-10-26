@@ -11,7 +11,6 @@ Using a little vector calculus, we can find a closed form solution to this equat
 \begin{gather\*}
 \nabla_w \langle y - Xw,  y - Xw \rangle = 0 \\\\
 \nabla_w \left[ {\langle y, y \rangle} - 2 \langle Xw, y \rangle +  \langle Xw, Xw \rangle \right] = 0 \\\\
-
 (X^\mathsf{T}X)w  = X^\mathsf{T}y
 \end{gather\*}
 
