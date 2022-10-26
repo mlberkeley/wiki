@@ -9,7 +9,8 @@ $$
 Using a little vector calculus, we can find a closed form solution to this equation.
 
 \begin{gather\*}
-\nabla_w ( y - Xw)^\mathsf{T}( y - Xw ) = 0
+\nabla_w ( y - Xw)^\mathsf{T}( y - Xw ) = 0 \\\\
+\nabla_w wX^\mathsf{T}X w - 2 \langle Xw, y \rangle
 \end{gather\*}
 
 $$
