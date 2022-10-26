@@ -16,6 +16,8 @@ Using a little vector calculus, we can find a closed form solution to this equat
 -2 X^\mathsf{T}y + 2(X^\mathsf{T}X)w = 0
 \end{gather\*}
 
+Rearranging, we get a closed-form solution.
+
 $$
 w^\star = (X\^\mathsf{T}X)\^{-1}X^\mathsf{T}y \tag{OLS Solution}
 $$
