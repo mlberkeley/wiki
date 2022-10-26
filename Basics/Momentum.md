@@ -4,7 +4,7 @@ bibliography: "./Basics/basics.bib"
 
 **Momentum**. Make sure you understand [[gradient descent]] first.
 
-Momentum is a tweak on GD.
+Momentum is a tweak on GD to safely increase our learning rate.
 
 \begin{align}
 w_{t + 1} &= w_{t} - \eta a_{t+1} \\\\
