@@ -34,7 +34,7 @@ Suppose we do the [[singular value decomposition]] $X = U \Sigma V^\mathsf{T}$. 
 
 \begin{align\*}
 w^\star &= (V\Sigma^2 V^\mathsf{T} + \lambda I_{d})\^{-1}V\Sigma U^\mathsf{T}y \\\\
-&= (V\Sigma^2 V^\mathsf{T} + \lambda VI_dV^\mathsf{T})
+&= V(\Sigma^2 + \lambda I_d)V^\mathsf{T}V \Sigma U^\mathsf{T}y
 \end{align\*}
 
 In general, we can have the loss be
