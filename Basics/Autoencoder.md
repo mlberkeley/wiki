@@ -1,1 +1,1 @@
-**Autoencoder**. An autoencoder is a [[neural network]] that does dimensionality reduction by simultaneously learning an encoder and a decoder.
+**Autoencoder**. An autoencoder is a [[neural network]] $$f_\theta: \RR^m \to \RR^k$$ that does dimensionality reduction by simultaneously learning an encoder and a decoder.
