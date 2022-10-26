@@ -30,6 +30,8 @@ $$
 
 # Synthesis
 
+Suppose we do the [[singular value decomposition]] $X = U \Sigma V^\mathsf{T}$.
+
 In general, we can have the loss be
 
 $$
