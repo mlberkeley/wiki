@@ -2,8 +2,7 @@
 
 ![](https://lilianweng.github.io/posts/2018-06-24-attention/sentence-example-attention.png)
 
-
-The attention mechanism can take in a sequence like "The big red dog" and give us a vector to tell us what to pay attention to. 
+Given a sequence, we want an attention vector to tell us which words need our attention, i.e. go together.
 
 What if we allowed the decoder to look back at an embedding of the input sequence? We could imagine a memory structure like an array, but we'll use something more like a hash table here. The hash table has keys and values, but we don't use the exact key to retrieve, rather a query.
 
