@@ -8,6 +8,6 @@ At training time, the layer uses a minibatch of data to estimate the mean and va
 
 > $$\mu_{\mathcal B} \leftarrow \frac{1}{m} \sum_{i=1}^m x_i$$
 > $$\sigma^2_{\mathcal B}\leftarrow \frac{1}{m} \sum_{i=1}^m \left(x_i - \mu_{\mathcal B}\right)^2$$
-> $$\hat{x}_i \leftarrow \frac{x_i - \mu_{\mathcal B}}{\sqrt{\sigma^2_{\mathcal B} + \epsilon}}$$
+> $$\hat{x}\_i \leftarrow \frac{x_i - \mu_{\mathcal B}}{\sqrt{\sigma^2_{\mathcal B} + \epsilon}}$$
 
 ---
