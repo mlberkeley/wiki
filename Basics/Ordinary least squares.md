@@ -11,7 +11,8 @@ Using a little vector calculus, we can find a closed form solution to this equat
 \begin{gather\*}
 \nabla_w ( y - Xw)^\mathsf{T}( y - Xw ) = 0 \\\\
 \nabla_w \left[ wX^\mathsf{T}X w - 2 \langle Xw, y \rangle \right] = 0 \\\\
-2 w\^\mathsf{T}(X^\mathsf{T}X) - 2 X^\mathsf{T}y
+2 w\^\mathsf{T}(X^\mathsf{T}X) - 2 X^\mathsf{T}y = 0 \\\\
+w\^\mathsf{T}(X^\mathsf{T}X)  = X^\mathsf{T}y
 \end{gather\*}
 
 $$
