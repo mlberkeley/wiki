@@ -3,7 +3,7 @@
 For ease, we put the examples into a [[design matrix]] $X \in \RR^{n \times d}$ and the labels in a vector $y \in \RR^n$. 
 
 $$
-w^\star = \arg\min_w \lVert y - Xw \rVert^2
+w^\star = \arg\min_w \lVert y - Xw \rVert^2_2
 $$
 
 # Analysis
