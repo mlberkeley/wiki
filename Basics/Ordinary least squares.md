@@ -1,4 +1,4 @@
-**Ordinary least squares (OLS)**. Suppose you have labels $y$ and a [[design matrix]] $X \in \RR^{n \times d}$ with $n$ examples and $d$ features (typically, $n \gg d$). OLS will find the parameters $w \in \RR^d$ for the linear approximation $Xw \approx y$.
+**Ordinary least squares (OLS)**. Suppose you have labels $y \in \RR^n$ and a [[design matrix]] $X \in \RR^{n \times d}$ with $n$ examples and $d$ features (typically, $n \gg d$). OLS will find the parameters $w \in \RR^d$ for the linear approximation $Xw \approx y$.
 
 The optimization problem is to minimize the mean squared error.
 
