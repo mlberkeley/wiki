@@ -5,7 +5,7 @@ Imagine a [[Seq2Seq]] task such as converting a string "I am a student" to upper
 What if we allowed the decoder to look back at an embeddeding of the input sequence? We could imagine a memory structure like an array, but we'll use something more like a hash table here. The hash table has keys and values, but we don't use the exact key to retrieve, rather a query.
 
 $$
-\text{Weighted Average} = \sum_{i=1}^n \mathsf{similarity}(\mathsf{query}, \mathsf{key}_i)\mathsf{value}_i
+\text{Attention} = \sum_{i=1}^n \mathsf{similarity}(\mathsf{query}, \mathsf{key}_i)\mathsf{value}_i
 $$
 
 Attention selectively stores the information. Query the encoder hidden states with a query vector, use the weights to compute a sum of the hidden states. This is the input for the layer that outputs tokens.
