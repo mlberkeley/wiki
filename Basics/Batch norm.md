@@ -8,7 +8,7 @@ At training time, the layer uses a minibatch of data to estimate the mean and va
 
 **Algorithm** (Batch Normalizing Transform).
 
-- **Inputs**: Mini-batch $\mathcal{B} = {x_{1\dots m}}$.
+- **Inputs**: Mini-batch $\mathcal{B} = \\{x_{1\dots m}\\}$.
 - **Parameters**: $\gamma$ and $\beta$
 - **Output**: $y_i$
 
