@@ -7,8 +7,8 @@ bibliography: "./Basics/basics.bib"
 Momentum is a tweak on GD.
 
 \begin{align}
-w_{t + 1} &= w_{t} - \alpha z_{t+1} \\\\
-z_{t + 1} &= \beta z_t + \nabla f(w_t)
+w_{t + 1} &= w_{t} - \eta a_{t+1} \\\\
+a_{t + 1} &= \beta a_t + \nabla f(w_t)
 \end{align}
 
 When $\beta = 0$, we recover GD.
