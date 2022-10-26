@@ -32,9 +32,9 @@ $$
 
 Suppose we do the [[singular value decomposition]] $X = U \Sigma V^\mathsf{T}$. Then,
 
-$$
+\begin{gather*}
 w^\star = (V\Sigma^2 V^\mathsf{T} + \lambda I_{d})\^{-1}V\Sigma U^\mathsf{T}y
-$$
+\end{gather*}
 
 In general, we can have the loss be
 
