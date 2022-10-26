@@ -8,7 +8,7 @@ Momentum is a tweak on GD to safely increase our learning rate. Instead of updat
 
 \begin{align}
 w_{t + 1} &= w_{t} - \eta a_{t+1} \\\\
-a_{t + 1} &= \beta a_t + \nabla_{w_t} f(w_t)
+a_{t + 1} &= \beta a_t + \nabla_{w_t} L(w_t)
 \end{align}
 
 When $\beta = 0$, we recover GD.
