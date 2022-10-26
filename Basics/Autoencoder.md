@@ -10,5 +10,5 @@ z &\mapsto x
 
 
 $$
-\theta, \phi = \arg\min_{\Theta, \Phi}
+\theta, \phi = \arg\min_{\Theta, \Phi} \frac{1}{N}\sum_{i=1}^N \ell(g_\phi(f_\theta(x_i)), x_i)
 $$
