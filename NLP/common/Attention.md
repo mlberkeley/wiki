@@ -10,7 +10,7 @@ $$
 
 Attention selectively stores the information. Query the encoder hidden states with a query vector, use the weights to compute a sum of the hidden states. This is the input for the layer that outputs tokens.
 
-The input sequence $x$ is projected by three matrices $W_Q \in \RR^{F \times D}, W_K \in \RR^{F \times D}, W_V \in \RR^{F \times M}$.
+The input sequence $x \in \RR^{N \times F}$ is projected by three matrices $W_Q \in \RR^{F \times D}, W_K \in \RR^{F \times D}, W_V \in \RR^{F \times M}$.
 
 $$
 Q = x W_Q \\\\ K = x W_K \\\\ V = x W_V
