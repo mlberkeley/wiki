@@ -10,7 +10,7 @@ Using a little vector calculus, we can find a closed form solution to this equat
 
 \begin{gather\*}
 \nabla_w ( y - Xw)^\mathsf{T}( y - Xw ) = 0 \\\\
-\nabla_w wX^\mathsf{T}X w - 2 \langle Xw, y \rangle
+\nabla_w \left[ wX^\mathsf{T}X w - 2 \langle Xw, y \rangle \right] = 0
 \end{gather\*}
 
 $$
