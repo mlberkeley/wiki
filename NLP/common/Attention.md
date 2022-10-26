@@ -7,7 +7,7 @@ Attention selectively stores the information. Query the encoder hidden states wi
 The input sequence $x$ is projected by three matrices $W_Q \in \RR^{F \times D}, W_K \in \RR^{F \times D}, W_V \in \RR^{F \times M}$.
 
 $$
-Q = x W_q
+Q = x W_Q \\\\ K = x W_K \\\\ V = x W_V
 $$
 
 $$
