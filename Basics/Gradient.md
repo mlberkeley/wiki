@@ -1,1 +1,1 @@
-The **gradient** of a function $f: \RR^n \to \RR$
+The **gradient** of a function $f: \RR^n \to \RR$ is usually denoted $\nabla f$
