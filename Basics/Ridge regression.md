@@ -7,7 +7,7 @@ $$
 The closed form solution is
 
 $$
-w\^\star = (X\^\mathsf{T}X + \lambda I_{d})\^{-1}X^\mathsf{T}y
+w\^\star = (X\^\mathsf{T}X + \lambda I_{d})\^{-1}X^\mathsf{T}y \tag{Classic Ridge Form}
 $$
 
 As you can see, we recover OLS by simply setting $\lambda = 0$ everywhere.
