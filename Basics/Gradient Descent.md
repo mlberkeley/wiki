@@ -21,4 +21,5 @@ w_{t +1 } &= w_t - \eta \nabla_{w_t} \lVert y - Xw_t \rVert^2 \\\\
 
 ## Convergence
 
-Let's take a very simple example. Our parameter is a scalar $w$ and we want to minimize $L(w) = (y - \sigma w)^2$.
+Let's take a very simple example. Our parameter is a scalar $w$, and our equation is $y = wx$. We want to minimize $L(w) = (y - x w)^2$.
+
