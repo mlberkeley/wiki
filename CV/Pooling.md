@@ -1,1 +1,1 @@
-**Pooling** layer in a [[CNN]] is a way of downsampling an image.
+**Pooling** layer in a [[CNN]] is a way of downsampling an image. It has a stride step size $S$ and a filter size $K$.
