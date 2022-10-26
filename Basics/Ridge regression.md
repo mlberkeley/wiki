@@ -12,6 +12,9 @@ As you can see, we recover OLS by simply setting $\lambda = 0$ everywhere.
 
 # Analysis
 
+$$
+\lVert Xw - y \rVert^2 + \lambda \lVert w \rVert^2 = \lVert Xw - y \rVert^2 + \lambda w^\mathsf{T}Iw
+$$
 
 
 $$
