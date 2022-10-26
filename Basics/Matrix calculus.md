@@ -1,0 +1,1 @@
+**Matrix calculus** is just using the familiar notions of single-variable calculus for functions of vectors and matrices.
