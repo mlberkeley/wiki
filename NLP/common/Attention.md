@@ -1,4 +1,4 @@
-**Attention**. It's the mechanism used in the [[Transformer]] architecture.
+**Attention**. It's the mechanism used in the [[Transformer]] architecture that roughly answers the question _What part of the input should we focus on?_.
 
 Imagine a [[Seq2Seq]] task such as converting a string "I am a student" to upper case "I AM A STUDENT" or lower case "i am a student." We might use an RNN with an encoder, whereby the final hidden state is handed to a decoder. But this means that we're putting a lot of burden on this final hidden state to compress the entire sentence.
 
