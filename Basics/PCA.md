@@ -7,4 +7,4 @@ $$
 X = U \Sigma V^\mathsf{T}
 $$
 
-Select the first $k$ columns of $U$, which correspond to the $k$ largest singular values in $\Sigma$.
+Select the first $k$ columns of $U$, which correspond to the $k$ largest singular values in $\Sigma$. That's your basis for the lower dimensional space.
