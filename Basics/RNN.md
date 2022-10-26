@@ -9,3 +9,7 @@ The hidden state depends both on the past hidden state and the current input. An
 $$
 h_t = \sigma(W^h h_{t-1} + W^x x_t + b)
 $$
+
+RNNs can be used for a number of tasks.
+
+![](https://3863425935-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LIA3amopGH9NC6Rf0mA%2F-M4bJ-IWAKzglR0XHFwU%2F-M4bJ3Kh_oCL1b6-9iX9%2Fsequence.png?generation=1586576264708001&alt=media)
