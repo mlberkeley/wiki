@@ -14,8 +14,8 @@ The input sequence $x \in \RR^{N \times F}$ is projected by three matrices $W_Q 
 
 $$
 Q = x W_Q \in \RR^{N \times D} \\\\
-K = x W_K \in \RR^{} \\\\
-V = x W_V
+K = x W_K \in \RR^{N \times D} \\\\
+V = x W_V \in \RR^{ \tiems }
 $$
 
 The matrix $QK^\mathsf{T}$
