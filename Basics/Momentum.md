@@ -1,0 +1,1 @@
+**Momentum**. Make sure you understand [[gradient descent]] first.
