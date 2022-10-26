@@ -13,6 +13,6 @@ Applying the gradient descent algorithm in practice requires [[backpropagation]]
 The simplest setting to try GD on is [[ordinary least squares]].
 
 \begin{align\*}
-w_{t +1 } &= w_t - \eta \nabla_w \lVert y - Xw \rVert^2 \\\\
-&= w_t + \eta 2X^\mathsf{T} (y - Xw)
+w_{t +1 } &= w_t - \eta \nabla_{w_t} \lVert y - Xw_t \rVert^2 \\\\
+&= w_t + \eta 2X^\mathsf{T} (y - Xw_t)
 \end{align\*}
