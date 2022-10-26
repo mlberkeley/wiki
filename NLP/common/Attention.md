@@ -2,7 +2,7 @@
 
 ![](https://lilianweng.github.io/posts/2018-06-24-attention/sentence-example-attention.png)
 
-Given a sequence, we want an attention vector to tell us which words need our attention, i.e. go together. As we read a sentence, word by word, different parts of the sentence will demand our attention.
+Given a sequence, we want an attention vector to tell us which words need our attention, i.e. go together. As we read a sentence, word by word, different parts of the sentence will demand our attention. In the image below, the red word is the one we're reading and the size of the blue shade indicates attention.
 
 ![](https://lilianweng.github.io/posts/2018-06-24-attention/cheng2016-fig1.png)
 
