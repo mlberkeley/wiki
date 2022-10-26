@@ -1,8 +1,6 @@
-**Ordinary least squares (OLS)**. Suppose you have a datset of $n$ examples $\\{(x_i, y_i)\\}_{i=1}^n$ where each $x \in \RR^d$ and $y \in \RR$. You suspect that the relationship is linear, i.e. $y = w^\mathsf{T}x$ for some weight parameter $w \in \RR^d$.
+**Ordinary least squares (OLS)**. Suppose you have a datset of $n$ examples $\\{(x_i, y_i)\\}_{i=1}^n$ where each $x \in \RR^d$ and $y \in \RR$. You suspect that the relationship is linear, i.e. $y = w^\mathsf{T}x$ for some weight parameter $w \in \RR^d$. OLS tells you how to find the $w$ with the lowest mean squared error.
 
-labels $y \in \RR^n$ and a [[design matrix]] $X \in \RR^{n \times d}$ with $n$ examples and $d$ features (typically, $n \gg d$). OLS will find the parameters $w \in \RR^d$ for the linear approximation $Xw \approx y$.
-
-The optimization problem is to minimize the mean squared error.
+For ease, we put the examples into a [[design matrix]] $X \in \RR^{n \times d}$ and the labels in a vector $y \in \RR^n$. 
 
 $$
 w^\star = \arg\min_w \lVert y - Xw \rVert^2
