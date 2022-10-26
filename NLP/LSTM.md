@@ -1,6 +1,6 @@
 **Long short term memory (LSTM)**. Make sure you understand [[RNN]]s first.
 
-[[https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png]]
+[[https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png|height=200]]
 
 An LSTM cell tries to control information flow.
 
