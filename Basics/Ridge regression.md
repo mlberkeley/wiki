@@ -25,7 +25,7 @@ $$
 
 # Synthesis
 
-Suppose we do the [[singular value decomposition]] $X = U \Sigma V^\mathsf{T}$. Then,
+Suppose we do the [[SVD]] $X = U \Sigma V^\mathsf{T}$. Then,
 
 \begin{align}
 \require{cancel} w^\star &= (V\Sigma^2 V^\mathsf{T} + \lambda I_{d})\^{-1}V\Sigma U^\mathsf{T}y \\\\
