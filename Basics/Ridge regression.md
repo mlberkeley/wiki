@@ -1,6 +1,7 @@
 **Ridge regression**.
 
 Prerequisites:
+
 - [[ordinary least squares]] 
 
 $$
