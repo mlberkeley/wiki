@@ -32,11 +32,11 @@ $$
 
 Suppose we do the [[singular value decomposition]] $X = U \Sigma V^\mathsf{T}$. Then,
 
-\begin{align\*}
+\begin{align}
 \require{cancel} w^\star &= (V\Sigma^2 V^\mathsf{T} + \lambda I_{d})\^{-1}V\Sigma U^\mathsf{T}y \\\\
 &= V(\Sigma^2 + \lambda I_d)\^{-1}\cancel{V^\mathsf{T}V} \Sigma U^\mathsf{T}y \\\\
 &= VDU^\mathsf{T}y,
-\end{align\*}
+\end{align}
 
 where $D$ is a diagonal matrix 
 
