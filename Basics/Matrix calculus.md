@@ -1,4 +1,4 @@
-**Matrix calculus** is just using the familiar notions of single-variable calculus for functions of vectors and matrices. A popular resource is [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf). Some common/useful facts are here:
+**Matrix calculus** is just expanding the familiar notions of single-variable calculus for functions of vectors and matrices, e.g. the concept of [[gradient]]. A popular resource is [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf). Some common/useful facts are here:
 
 $$
 \nabla_x \langle x, a \rangle = a
