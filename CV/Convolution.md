@@ -1,6 +1,9 @@
 A **convolution** is a layer in a [[CNN]].
 
-The layer is made up of $F$ filters which we'll slide over the input.
+The layer is made up of $F$ filters, each of which we'll slide over the input. 
+
+- The number of weights is $K^2CF$
+- The number of biases is $F$
 
 ![](https://cs231n.github.io/assets/cnn/cnn.jpeg)
 
