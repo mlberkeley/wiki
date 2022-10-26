@@ -2,7 +2,7 @@
 
 CNNs are good for images because they respect locality and invariance. In a standard CNN, we have
 
-- Convolution layers
+- [[Convolution]] layers
 - Pooling layers
 - Flattening
 
