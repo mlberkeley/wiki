@@ -1,4 +1,4 @@
-**Ordinary least squares (OLS)**. Suppose you have a datset of $n$ examples $\\{(x_i, y_i)\\}_{i=1}^n$
+**Ordinary least squares (OLS)**. Suppose you have a datset of $n$ examples $\\{(x_i, y_i)\\}_{i=1}^n$ where each $x \in \RR^d$ and $y \in \RR$.
 
 labels $y \in \RR^n$ and a [[design matrix]] $X \in \RR^{n \times d}$ with $n$ examples and $d$ features (typically, $n \gg d$). OLS will find the parameters $w \in \RR^d$ for the linear approximation $Xw \approx y$.
 
