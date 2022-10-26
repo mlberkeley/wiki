@@ -24,3 +24,5 @@ RNNs can be used for a number of tasks.
 $$
 \frac{\partial \mathcal{L}}{\partial W} = \sum_{t=1}^T \frac{\partial \mathcal{L}}{\partial h_t}\frac{\partial h_t}{\partial W}
 $$
+
+The big problem with RNNs is that they don't capture long-term dependencies well, hence [[LSTM]].
