@@ -1,5 +1,7 @@
 A **convolution** is a layer in a [[CNN]].
 
+The layer is made up of $F$ filters which we'll slide over the input.
+
 ![](https://cs231n.github.io/assets/cnn/cnn.jpeg)
 
 Say the input has shape $(W, H, C)$. The convolutional layers has 4 hyperparameters:
