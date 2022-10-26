@@ -9,5 +9,5 @@ $$
 $$
 
 $$
-\nabla_x \langle Ax, b \rangle = x\^\mathsf{T}A^\mathsf{T}b
+\nabla_x \langle Ax, b \rangle = A^\mathsf{T}b
 $$
