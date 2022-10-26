@@ -3,3 +3,7 @@
 $$
 \nabla_x \left( x^\mathsf{T}Ax \right) = x^\mathsf{T}\left(A + A^\mathsf{T} \right)
 $$
+
+$$
+\nabla_x \langle Ax, b \rangle = x^\mathsf{T}A^\mathsf{T}b
+$$
