@@ -16,6 +16,8 @@ $$
 Q = x W_Q \\\\ K = x W_K \\\\ V = x W_V
 $$
 
+The matrix $QK^\mathsf{T}$
+
 $$
 \mathsf{Attention}(Q, K, V) = \operatorname{softmax}\left( \frac{QK^\mathsf{T}}{\sqrt{d_k}} \right)V,
 $$
