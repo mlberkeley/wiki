@@ -23,3 +23,7 @@ This trick for making an "inverse" out of a non-rectangular matrix comes up ofte
 $$
 w^\star = X^\dagger y
 $$
+
+# Synthesis
+
+The matrix $X^\mathsf{T}X$ is only invertible when the rank of $X$ is $d$, i.e. each of the columns is linearly independent.
