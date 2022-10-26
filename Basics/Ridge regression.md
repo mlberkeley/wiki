@@ -33,7 +33,7 @@ $$
 Suppose we do the [[singular value decomposition]] $X = U \Sigma V^\mathsf{T}$. Then,
 
 \begin{align\*}
-w^\star &= (V\Sigma^2 V^\mathsf{T} + \lambda I_{d})\^{-1}V\Sigma U^\mathsf{T}y \\\\
+\require{cancel} w^\star &= (V\Sigma^2 V^\mathsf{T} + \lambda I_{d})\^{-1}V\Sigma U^\mathsf{T}y \\\\
 &= V(\Sigma^2 + \lambda I_d)V^\mathsf{T}V \Sigma U^\mathsf{T}y
 \end{align\*}
 
