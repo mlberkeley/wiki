@@ -8,7 +8,7 @@ $$
 
 In some cases, $w$ will turn out to have extremely large values, which is undesirable. A simple regularization technique is to add a penalty term to the loss function for having large values of weights.
 
-# Synthesis
+# Analysis
 
 This section will depend on [[singular value decomposition]].
 
@@ -20,4 +20,4 @@ $$
 
 where the $\sigma_i(A)$ are the singular values of $A$.
 
-So our concern here is making sure that $X^\mathsf{T}X$ is stable and has a low condition number.
+Our concern here is making sure that $X^\mathsf{T}X$ is stable and has a low condition number. [[Ridge regression]] is a technique designed to do just that.
