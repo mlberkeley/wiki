@@ -2,7 +2,9 @@
 
 ![](https://lilianweng.github.io/posts/2018-06-24-attention/sentence-example-attention.png)
 
-Given a sequence, we want an attention vector to tell us which words need our attention, i.e. go together.
+Given a sequence, we want an attention vector to tell us which words need our attention, i.e. go together. As we read a sentence, word by word, different parts of the sentence will demand our attention.
+
+![](https://lilianweng.github.io/posts/2018-06-24-attention/cheng2016-fig1.png)
 
 What if we allowed the decoder to look back at an embedding of the input sequence? We could imagine a memory structure like an array, but we'll use something more like a hash table here. The hash table has keys and values, but we don't use the exact key to retrieve, rather a query.
 
