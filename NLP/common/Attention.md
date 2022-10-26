@@ -1,5 +1,6 @@
 **Attention**. It's the mechanism used in the [[Transformer]] architecture that, intuitively speaking, tells the model what part of the input to focus on. Take a [[Seq2Seq]] task such as translating an English sentence into French. 
 
+![](https://lilianweng.github.io/posts/2018-06-24-attention/sentence-example-attention.png)
 
 
 The attention mechanism can take in a sequence like "The big red dog" and give us a vector to tell us what to pay attention to. 
