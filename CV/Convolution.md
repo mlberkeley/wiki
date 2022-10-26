@@ -1,4 +1,4 @@
-A **convolution** is an operation on images. 
+A **convolution** is a layer in a [[CNN]].
 
 ![](https://cs231n.github.io/assets/cnn/cnn.jpeg)
 
