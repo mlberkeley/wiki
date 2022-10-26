@@ -8,4 +8,6 @@ Given a graph, there are three kinds of tasks we may want to perform: predict a 
 
 ![](https://distill.pub/2021/gnn-intro/arch_independent.0efb8ae7.png)
 
+If you want to do node prediction, then apply a classifier to each node embedding.
+
 ---
