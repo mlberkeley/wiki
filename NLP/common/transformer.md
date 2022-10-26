@@ -9,8 +9,6 @@ bibliography: "./NLP/nlp-papers.bib"
 
 Transformers are an architecture first described by @https://doi.org/10.48550/arxiv.1706.03762 that overtaken RNNs, LSTMs and similar.
 
-![](https://miro.medium.com/max/1400/1*BHzGVskWGS_3jEcYYi6miQ.png)
-
 [[_TOC_]]
 
 # Analysis
@@ -25,5 +23,9 @@ $$
 - $A_\ell$ is the self-[[attention]] function, the only part of transformer that acts across sequences.
 
 ## Attention
+
+# Synthesis
+
+![](https://miro.medium.com/max/1400/1*BHzGVskWGS_3jEcYYi6miQ.png)
 
 ---
