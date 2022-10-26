@@ -19,3 +19,8 @@ $$
 RNNs can be used for a number of tasks.
 
 ![](https://3863425935-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LIA3amopGH9NC6Rf0mA%2F-M4bJ-IWAKzglR0XHFwU%2F-M4bJ3Kh_oCL1b6-9iX9%2Fsequence.png?generation=1586576264708001&alt=media)
+
+
+$$
+\frac{\partial \mathcal{L}}{\partial W} = \sum_{t=1}^T \frac{\partial \mathcal{L}}{\partial h_t}\frac{\partial h_t}{\partial W}
+$$
