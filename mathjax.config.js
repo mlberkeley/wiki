@@ -11,5 +11,7 @@ window.MathJax = {
       },
       equationNumbers: { autoNumber: "AMS" }
     },
+    loader: {load: ['[tex]/cancel']},
+    tex: {packages: {'[+]': ['cancel']}}
 };
 
