@@ -10,6 +10,6 @@ z &\mapsto x
 
 
 $$
-\theta, \phi = \arg\min\_{\Theta, \Phi} \frac{1}{N}\sum_{i=1}^N \ell(\hat{x}_i, x_i) \\\\
+\theta, \phi = \arg\min\_{\Theta, \Phi} \frac{1}{N}\sum\_{i=1}^N \ell(\hat{x}_i, x_i) \\\\
 \hat{x} = g_\phi(f_\theta(x))
 $$
