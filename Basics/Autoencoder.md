@@ -4,7 +4,8 @@
 f_\theta: \RR^m &\to \RR^k, \qquad k \ll m \\\\
 x &\mapsto z \\\\
 \\\\
-g_\phi
+g_\phi: \RR^k &\to \RR^m \\\\
+z &\mapsto x
 \end{align\*}
 
 that does dimensionality reduction by simultaneously learning an encoder and a decoder.
