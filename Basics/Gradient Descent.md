@@ -29,3 +29,4 @@ w_{t + 1} &= w_t - \eta \frac{\partial}{\partial w_t} (y - x w_t)^2 \\\\
 &= \left(1 - 2\eta x^2\right) w_t + 2\eta x y
 \end{align\*}
 
+We can see now that the value of $w_{t+1}$ is going to depend on a term $(1 - 2 \eta x^2)^{t+1}$.
