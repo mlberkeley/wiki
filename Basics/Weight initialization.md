@@ -2,4 +2,4 @@
 
 _Example_. Xavier initialization uses a normal distribution with mean 0 and variance $\frac{1}{d}$ where $d$ is the number of incoming connections.
 
-_Example_. He/Kaiming initialization is used for [[ReLU]] uses a normal distribution with mean 0 and variance $\frac{2}{d}$.
+_Example_. He/Kaiming initialization is used for [[ReLU]] and uses a normal distribution with mean 0 and variance $\frac{2}{d}$.
