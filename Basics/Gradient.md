@@ -1,0 +1,1 @@
+The **gradient** of a function $f: \RR^n \to \RR$
