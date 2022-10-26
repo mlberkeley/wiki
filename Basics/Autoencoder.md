@@ -4,7 +4,7 @@
 \overbrace{f_\theta}^{\text{Encoder}}: \RR^m &\to \RR^k, \qquad k \ll m \\\\
 x &\mapsto z \\\\
 \\\\
-g_\phi: \RR^k &\to \RR^m \\\\
+\overbrace{g_\phi}^{\text{Decoder}}: \RR^k &\to \RR^m \\\\
 z &\mapsto x
 \end{align\*}
 
