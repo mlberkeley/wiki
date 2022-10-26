@@ -2,7 +2,7 @@
 
 Imagine a [[Seq2Seq]] task such as converting a string "I am a student" to upper case "I AM A STUDENT" or lower case "i am a student." We might use an RNN with an encoder, whereby the final hidden state is handed to a decoder. But this means that we're putting a lot of burden on this final hidden state to compress the entire sentence.
 
-What if we allowed the decoder to look back at an embeddeding of the input sequence.
+What if we allowed the decoder to look back at an embeddeding of the input sequence? We could imagine a memory structure like an array, but we'll use something more like a hash table here. The hash table has keys and values, but we don't use the exact key to retrieve, rather a query.
 
 Attention selectively stores the information. Query the encoder hidden states with a query vector, use the weights to compute a sum of the hidden states. This is the input for the layer that outputs tokens.
 
