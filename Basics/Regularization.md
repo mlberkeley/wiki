@@ -1,1 +1,1 @@
-**Regularization**. Regularization refers to techniques that modify a model to yield more sensible parameters.
+**Regularization**. Regularization refers to techniques that modify a model to yield more sensible parameters. For example, consider [[ordinary least squares]].
