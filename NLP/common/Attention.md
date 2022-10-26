@@ -15,3 +15,8 @@ $$
 $$
 
 where softmax is applied row-wise.
+
+
+$$
+V_i' = \frac{\sum_{j=1}^N \mathsf{sim}(Q_i, K_j)V_j  }{\sum_{j=1}^N \mathsf{sim}(Q_i , K_j) }
+$$
