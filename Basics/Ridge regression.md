@@ -41,7 +41,7 @@ Suppose we do the [[singular value decomposition]] $X = U \Sigma V^\mathsf{T}$. 
 where $D$ is a diagonal matrix 
 
 $$
-D_{ii} = \frac{\sigma_i}{\sigma_i^2 + \lambda^2}
+D_{ii} = \frac{\sigma_i}{\sigma_i^2 + \lambda}
 $$
 
 
