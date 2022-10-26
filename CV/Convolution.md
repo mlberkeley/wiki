@@ -23,6 +23,10 @@ Say the input has shape $(W, H, C)$. The convolutional layers has 4 hyperparamet
 
 Padding is adding extra pixels to the image for the purpose of capturing what's happening at the borders of the image. Common options are zero-padding and mirror-padding.
 
+# Stride
+
+The stride is how big the steps are.
+
 # Receptive Field
 
 The receptive field for a pixel in the output is the set of pixels from the image it depends on. To increase receptive field, we use [[pooling]].
